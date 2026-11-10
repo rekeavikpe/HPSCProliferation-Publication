@@ -1,0 +1,19 @@
+{
+  "training_conditions": [
+    1,
+    2,
+    3,
+    5,
+    6
+  ],
+  "test_condition": 4,
+  "training_observations": 116,
+  "exposure": "P50; not selected using test errors",
+  "parameters": "All kinetic parameters free, including KAgg, KLac, YGX",
+  "starts": "Six seeded starts from the bounds midpoint plus independent log-coordinate perturbations; no prior fitted vectors",
+  "selection": "Minimum achieved training BIC; seven candidates; all convergence flags retained; no test-based reranking",
+  "test_inputs": "500-mL CFD, nominal seeding, protocol feeding, measured day-zero glucose mean; initial lactate 0 and aggregate 15 um inherited assumptions",
+  "limitations": "Retrospective: structures/bounds/assumptions previously developed using all data. Not untouched external validation. C4 aggregate days provisional. Diagonal likelihood omits within-vessel temporal dependence.",
+  "seed": 20261003,
+  "refinement": "Two extra starts per model: own training optimum and frozen Model 5 100-mL-only optimum; tighter tolerances; 300 LM and 5000 polish iterations. No test scores used."
+}

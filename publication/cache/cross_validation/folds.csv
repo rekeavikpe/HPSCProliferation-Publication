@@ -1,0 +1,16 @@
+fold,experiment,training_cultures,prediction_cultures
+reference100,reference,31,9
+loco_condition1,loco,27,4
+loco_condition2,loco,23,8
+loco_condition3,loco,25,6
+loco_condition4,loco,24,7
+loco_condition5,loco,25,6
+partial500_001,partial500,35,5
+partial500_002,partial500,35,5
+partial500_003,partial500,35,5
+partial500_004,partial500,35,5
+partial500_005,partial500,35,5
+partial500_006,partial500,35,5
+partial500_007,partial500,35,5
+partial500_008,partial500,35,5
+partial500_009,partial500,35,5

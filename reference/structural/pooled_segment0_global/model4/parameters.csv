@@ -1,0 +1,13 @@
+model,design,segment,parameter,classification,mode
+4,pooled,0,K_Agg,globally,global
+4,pooled,0,K_G,globally,global
+4,pooled,0,K_Lac,globally,global
+4,pooled,0,K_d,globally,global
+4,pooled,0,K_eps,globally,global
+4,pooled,0,K_oG,globally,global
+4,pooled,0,K_tau,locally,global
+4,pooled,0,Y_GLac,globally,global
+4,pooled,0,Y_GX,globally,global
+4,pooled,0,alpha,globally,global
+4,pooled,0,delta_max,globally,global
+4,pooled,0,mu_max,globally,global

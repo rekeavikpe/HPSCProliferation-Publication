@@ -1,0 +1,45 @@
+{
+  "status": "development_candidate",
+  "julia": "1.12.4",
+  "local_architecture": "Apple arm64",
+  "logical_cpus": 10,
+  "core_tests_passed": 94,
+  "reference_checks_passed": 56,
+  "parallel_smoke_jobs": 42,
+  "parallel_thread_counts": [
+    1,
+    42
+  ],
+  "maximum_parallel_nll_difference": 0.0,
+  "figure_raster_dimensions": [
+    4250,
+    3167
+  ],
+  "figure_dpi": 600,
+  "figure_formats": [
+    "pdf",
+    "eps",
+    "svg",
+    "png",
+    "tiff",
+    "jpeg"
+  ],
+  "server_verified": false,
+  "full_recalibration": "completed: six starts plus two refinements for each of seven models",
+  "structural_identifiability": "not completed",
+  "media_exchange_and_cell_line_pipeline": "not completed",
+  "fresh_run_checks_passed": 140,
+  "full_run_selected_model": 5,
+  "full_run_selected_bic": 1278.4606497690702,
+  "largest_bic_difference_from_reference": 0.0001327883821886644,
+  "unconverged_selected_candidates": [
+    2,
+    6
+  ],
+  "raw_import_csvs_byte_identical": 7,
+  "total_core_reference_fresh_checks": 290,
+  "figures_verified": [
+    "scale_transfer",
+    "training_selection"
+  ]
+}

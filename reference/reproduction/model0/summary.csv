@@ -1,0 +1,2 @@
+model,legacy_model,n,k,nll,bic,stopping_met,boundaries,run,stage
+0,0,116,9,673.7356887012946,1390.2536891225466,true,K_Lac:upper;Y_GX:lower,run7,least_squares

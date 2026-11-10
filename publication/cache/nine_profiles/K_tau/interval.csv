@@ -1,0 +1,2 @@
+parameter,mle,package_lower,package_upper,lower_hits_bound,upper_hits_bound,unconfirmed_points,better_minimum
+K_tau,0.008332214827801356,0.006296099962370986,0.011428157438334127,false,false,0,false

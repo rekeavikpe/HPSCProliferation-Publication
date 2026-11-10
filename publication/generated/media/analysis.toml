@@ -1,0 +1,10 @@
+observations = "Days 1-6, before exchange, mean and sample SD of labeled bioreactors"
+interpretation = "Frozen-parameter evaluation of previously inspected protocol data; no predictive intervals estimated"
+parameters_reestimated = false
+initial_aggregate = "Inherited calibration assumption; day-zero workbook zeros excluded"
+initial_glucose = "Protocol mean of measured day-zero glucose; not fitted"
+feeding = "50% day 2; assigned 20% or 50% days 3,4,5; no harvest-day exchange"
+fresh_glucose = "Assumed equal to protocol initial glucose; fresh medium not separately measured"
+source_fit = "/Users/ferdinandavikpe/Documents/Codex/2026-10-02/referenced-chatgpt-conversation-this-is-an/outputs/zenodo_release_20261110/relocated_test/HPSCProliferation_v1.0.0/publication/cache/training60/reference_fit"
+selected_model = 5
+mrpe = "100 * mean(abs(prediction - observed_mean)/abs(observed_mean)); zeros excluded and counted"

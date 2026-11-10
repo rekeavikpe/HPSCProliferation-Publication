@@ -1,0 +1,8 @@
+publication_model,legacy_model,n,k,nll,bic,stopping_met,boundaries
+5,6,116,11,613.085578845579,1278.460649793328,true,K_Lac:upper
+1,1,116,12,615.7936870977043,1288.630456488685,false,K_Lac:upper;delta_max:upper
+2,3,116,12,615.8298302101881,1288.7027427136527,true,K_Lac:upper;delta_max:upper
+4,5,116,12,615.9350933488214,1288.9132689909193,true,K_Lac:upper;delta_max:upper
+6,7,116,13,615.7937937760365,1293.3842600364558,true,K_Lac:upper
+3,4,116,12,641.2586004219112,1339.5602831370988,true,K_Agg:upper;K_Lac:upper;delta_max:upper
+0,0,116,9,673.7356887013095,1390.2536891225764,true,K_Lac:upper;Y_GX:lower

@@ -1,0 +1,7 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Ghostscript_jll = "61579ee1-b43e-5ca0-a5da-69d92c66a64b"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+TiffImages = "731e570b-9d59-4bfa-96dc-6df516fadf69"

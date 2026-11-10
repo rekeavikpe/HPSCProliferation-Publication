@@ -1,0 +1,7 @@
+endpoint,rpm_a,rpm_b,n_a,n_b,U,p_value,p_holm,method
+aggregate_day5,30,40,6,8,48.0,0.002414648913758847,0.007243946741276541,"Mann-Whitney normal approximation, tie and continuity corrections; Holm within three contrasts"
+aggregate_day5,30,60,6,6,36.0,0.005074868097940252,0.007243946741276541,"Mann-Whitney normal approximation, tie and continuity corrections; Holm within three contrasts"
+aggregate_day5,40,60,8,6,48.0,0.002414648913758847,0.007243946741276541,"Mann-Whitney normal approximation, tie and continuity corrections; Holm within three contrasts"
+cells_fold_day1_day5,30,40,6,8,17.0,0.4013871657117662,0.6892988113834138,"Mann-Whitney normal approximation, tie and continuity corrections; Holm within three contrasts"
+cells_fold_day1_day5,30,60,6,6,10.0,0.2297662704611379,0.6892988113834138,"Mann-Whitney normal approximation, tie and continuity corrections; Holm within three contrasts"
+cells_fold_day1_day5,40,60,8,6,16.0,0.3329216080655659,0.6892988113834138,"Mann-Whitney normal approximation, tie and continuity corrections; Holm within three contrasts"

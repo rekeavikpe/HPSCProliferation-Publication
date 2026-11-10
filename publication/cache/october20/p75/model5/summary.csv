@@ -1,0 +1,2 @@
+model,legacy_model,n,k,nll,bic,stopping_met,boundaries,run,stage
+4,5,116,12,611.0548542365723,1279.1527907664208,true,K_Lac:upper;K_eps:upper,run77,polished

@@ -1,0 +1,18 @@
+"""Render the historical lactate sensitivity results without changing fitted outputs."""
+import csv
+import html
+import sys
+from pathlib import Path
+p=Path(sys.argv[1])
+def read(name):
+    with (p/name).open() as f:
+        return list(csv.DictReader(f))
+metrics=read('state_errors.csv');penalty=read('likelihood_penalty.csv')[0];bounds=read('boundaries.csv');starts=read('starts.csv')
+table=''.join('<tr>'+''.join(f'<td>{html.escape(str(v))}</td>' for v in (r['cohort'],r['state'],f"{float(r['reference_mrpe']):.2f}",f"{float(r['historical_mrpe']):.2f}",f"{float(r['delta_nll']):+.3f}"))+'</tr>' for r in metrics)
+parameters=''.join(f"<tr><td>{html.escape(r['parameter'])}</td><td>{float(r['value']):.7g}</td><td>{r['at_bound']}</td></tr>" for r in bounds)
+figures=''.join(f"<h2>Condition {c}</h2><a href='figures/condition{c}.pdf'>PDF</a><img src='figures/condition{c}.png' alt='Predictions with historical versus fitted lactate constant, condition {c}'>" for c in (1,2,3,5,6,4))
+text='''<!doctype html><meta charset="utf-8"><title>Historical lactate constant sensitivity</title><style>body{max-width:1050px;margin:40px auto;padding:0 24px;font:17px/1.5 system-ui;color:#162c3a}table{border-collapse:collapse;width:100%;font-size:15px}td,th{padding:9px;border-bottom:1px solid #ddd;text-align:left}img{width:100%;height:auto}.note{background:#edf3f7;padding:18px}a{color:#076d9e}</style><h1>Retaining K<sub>Lac</sub> = 30.40495 mM</h1><p>The original lactate-inhibition factor is retained. Only K<sub>Lac</sub> is fixed; all ten other parameters, including K<sub>G</sub> and Y<sub>GX</sub>, are reoptimized using 100-mL data. Eight deterministic starts use ProfileLikelihood.jl’s MLE interface with NLopt BOBYQA. The source calibration, bounds, observations and likelihood weighting are unchanged.</p>'''
+text+=f"<p>All-start successful termination: {all(r['stopping_met']=='true' for r in starts)}. Negative log-likelihood penalty: <strong>{float(penalty['delta_nll']):.4f}</strong>; twice the penalty: <strong>{float(penalty['twice_delta_nll']):.4f}</strong>.</p>"
+text+='''<div class="note">The original value brings K<sub>G</sub> and μ<sub>max</sub> close to their original manuscript estimates. It is not likelihood-equivalent to the current all-free calibration: the largest deterioration is in aggregate-size residuals, partly offset by improved glucose fit. The twice-log-likelihood penalty exceeds the conventional one-parameter 95% reference of 3.84. This is a working-likelihood diagnostic, not a robust formal test: the analysis uses a diagonal likelihood for repeated measurements and a bounded reference fit.</div><p>The historical constant came from the combined-data analysis. This is a sensitivity assumption, not independent evidence for its biological value or leakage-free scale validation. No 500-mL observations enter optimization here. No new profile-likelihood suite was calculated in this comparison.</p><h2>Errors and likelihood contribution</h2><p>MRPE is a percentage. Positive ΔNLL means worse weighted fit for the historical value; only the 100-mL contributions enter the calibration penalty.</p><table><tr><th>Cohort</th><th>State</th><th>Reference MRPE</th><th>Historical MRPE</th><th>ΔNLL</th></tr>'''+table+'</table><h2>Reoptimized parameters</h2><table><tr><th>Parameter</th><th>Estimate</th><th>At a bound?</th></tr>'+parameters+'</table><p><a href="starts.csv">All starts</a> · <a href="fit_comparison.csv">Fit comparison</a> · <a href="state_errors.csv">State errors</a> · <a href="mle_parameters.csv">Full parameter vector</a></p>'+figures
+(p/'index.html').write_text(text)
+print(p/'index.html')

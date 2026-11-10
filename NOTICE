@@ -1,0 +1,3 @@
+This software derives from the authors' HPSCProliferation research code, distributed under Apache License 2.0. That code license is retained. The publication release adds curated data and cached results under CC BY 4.0, as authorized by the depositor. See LICENSES.md for the scope of each license. Cite the associated article and the Zenodo record when using the package.
+
+The oxygen analysis uses the correlation and physical-property equations reported by Neto et al. (2022), Bioengineering 9(8):386, doi:10.3390/bioengineering9080386. Source information: https://github.com/Pedro-Miguel-Neto/PBS-MINI-0.1L. Upstream reference files are not relicensed; see data/reference/neto2022/README.md.

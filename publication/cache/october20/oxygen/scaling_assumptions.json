@@ -1,0 +1,20 @@
+{
+  "anchor_100mL_30rpm_h": 1.5427907863504995,
+  "volume_ratio": 5,
+  "kla_ratio": 0.76472449133173,
+  "scaled_500mL_h": 1.1798098993231656,
+  "formula": "kLa2/kLa1=(epsilon_surface2/epsilon_surface1)^0.25 * (a2/a1)",
+  "assumptions": [
+    "geometrically similar vessels",
+    "same RPM, fluid and gas boundary conditions",
+    "constant power number",
+    "surface dissipation ratio follows volume-average dissipation scaling V^(2/3)",
+    "interfacial area ratio follows V^(2/3)"
+  ],
+  "verified_actual_500mL_geometry": false,
+  "verified_surface_CFD": false,
+  "sources": [
+    "https://doi.org/10.1002/aic.690160403",
+    "https://doi.org/10.3390/bioengineering9080386"
+  ]
+}

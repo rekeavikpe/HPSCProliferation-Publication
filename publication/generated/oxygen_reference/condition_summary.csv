@@ -1,0 +1,7 @@
+source_condition,label,rpm,volume_ml,peak_day,peak_condition_mean_cells_ml,max_individual_cells_ml,required_kla_h_at_q_reference,required_kla_h_individual,conditional_kla_h,conditional_Da,kla_status
+1,100mL condition 1,40,100,6,547000.0,780000.0,0.16597542857142855,0.23667428571428567,1.8077912517909958,0.0918111692414681,"Neto correlation, verified wheel and area, original water-property functions at 37 C"
+2,100mL condition 2,40,100,6,1.326730939716312e6,1.69e6,0.40256807370820663,0.5127942857142856,1.8077912517909958,0.22268504359083421,"Neto correlation, verified wheel and area, original water-property functions at 37 C"
+3,100mL condition 3,40,100,6,1.67375e6,1.96e6,0.5078635714285714,0.59472,1.8077912517909958,0.2809304287347481,"Neto correlation, verified wheel and area, original water-property functions at 37 C"
+5,100mL condition 4,30,100,5,1.0598333333333333e6,1.26e6,0.32158371428571425,0.38232,1.5427907863504993,0.208442853775674,"Neto correlation, verified wheel and area, original water-property functions at 37 C"
+6,100mL condition 5,60,100,6,1.0525e6,1.22e6,0.31935857142857144,0.3701828571428571,2.26034413042443,0.1412875885268872,"Neto correlation, verified wheel and area, original water-property functions at 37 C"
+4,500mL evaluation,30,500,5,1.0289851851851853e6,1.1338666666666667e6,0.3122235047619048,0.34404754285714284,1.8,0.17345750264550266,Unvalidated inherited 1.8/h assumption

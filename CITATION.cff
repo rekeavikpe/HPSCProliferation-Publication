@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: Please cite the associated paper in preferred-citation and this version of the Zenodo code/data
+  release. See README.md for both citations.
+type: software
+title: Code, data and cached results for In Silico Modeling of Shear Stress and Energy Dissipation Rate
+  Effects on Human Pluripotent Stem Cell Proliferation in Vertical-Wheel Bioreactors
+version: 1.0.2
+date-released: '2026-11-10'
+license:
+- Apache-2.0
+- CC-BY-4.0
+repository-code: https://github.com/rekeavikpe/HPSCProliferation-R2
+abstract: Publication code under Apache 2.0; curated data and cached results under CC BY 4.0. See LICENSES.md.
+authors:
+- family-names: Avikpe
+  given-names: Ferdinand R.
+- family-names: Alibhai
+  given-names: Faisal J.
+- family-names: Romero
+  given-names: David A.
+- family-names: Mostofinejad
+  given-names: Amirmahdi
+- family-names: Bauer
+  given-names: Julia E. S.
+- family-names: Montague
+  given-names: E. Coulter
+- family-names: Laflamme
+  given-names: Michael A.
+- family-names: Amon
+  given-names: Cristina H.
+url: https://doi.org/10.5281/zenodo.24117723
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Avikpe
+    given-names: Ferdinand R.
+  - family-names: Alibhai
+    given-names: Faisal J.
+  - family-names: Romero
+    given-names: David A.
+  - family-names: Mostofinejad
+    given-names: Amirmahdi
+  - family-names: Bauer
+    given-names: Julia E. S.
+  - family-names: Montague
+    given-names: E. Coulter
+  - family-names: Laflamme
+    given-names: Michael A.
+  - family-names: Amon
+    given-names: Cristina H.
+  title: In Silico Modeling of Shear Stress and Energy Dissipation Rate Effects on Human Pluripotent Stem
+    Cell Proliferation in Vertical-Wheel Bioreactors
+  journal: Stem Cells Translational Medicine
+  notes: Accepted for publication. Journal DOI, volume and pages are not yet available.
+doi: 10.5281/zenodo.24117723

@@ -1,0 +1,60 @@
+ZENODO UPLOAD — hPSC PUBLICATION RELEASE 1.0.2
+
+Upload: hPSC_Zenodo_Code_Data_Results_v1.0.2.zip
+Resource type: Software
+Version: 1.0.2
+Access: Public
+Reserved code/data DOI: 10.5281/zenodo.24117723
+DOI link: https://doi.org/10.5281/zenodo.24117723
+Licenses: Apache License 2.0 for code; Creative Commons Attribution 4.0 International for the curated data and cached results. Add both licenses and retain the scope explanation in the description.
+
+TITLE
+Code, data and cached results for In Silico Modeling of Shear Stress and Energy Dissipation Rate Effects on Human Pluripotent Stem Cell Proliferation in Vertical-Wheel Bioreactors
+
+DESCRIPTION
+Research code, curated measurements and CFD exposure summaries, saved model fits, final likelihood profiles, predictions, and figure/table reproduction scripts supporting the accepted Stem Cells Translational Medicine article SCTM-26-0107.R2. Code is Apache-2.0; data, cached results and figures are CC-BY-4.0. The archive does not contain raw CFD simulation projects or all historical optimization checkpoints. See README.md and LICENSES.md.
+
+The release uses the same model equations, calibration/selection split and selected parameters as the final manuscript. It includes code, curated measurements, CFD summary inputs, selected-fit caches, final profile likelihoods and scripts for numerical checks and figure/table reproduction. It starts from exported CFD summaries; original CFD projects, particle trajectory exports and every historical optimizer checkpoint are not included. Two coauthor-prepared figures are supplied as reference artwork. Third-party reference inputs retain their original terms and are fetched separately where required.
+
+AUTHORS (final submitted title-page order)
+Avikpe, Ferdinand R.
+Alibhai, Faisal J.
+Romero, David A.
+Mostofinejad, Amirmahdi
+Bauer, Julia E. S.
+Montague, E. Coulter
+Laflamme, Michael A.
+Amon, Cristina H.
+
+KEYWORDS
+human pluripotent stem cells, vertical-wheel bioreactor, mechanistic modelling, shear stress, energy dissipation rate, profile likelihood
+
+RELATED WORK
+In Silico Modeling of Shear Stress and Energy Dissipation Rate Effects on Human Pluripotent Stem Cell Proliferation in Vertical-Wheel Bioreactors
+Accepted in Stem Cells Translational Medicine, manuscript SCTM-26-0107.R2.
+Repository: https://github.com/rekeavikpe/HPSCProliferation-R2
+Base commit: cd7e98567ee3be0e4b3884982d3dbe83246b7f0d
+Matching GitHub release tag: https://github.com/rekeavikpe/HPSCProliferation-R2/tree/v1.0.2
+The tagged GitHub files and the Zenodo ZIP have identical contents. The base commit above records the earlier source snapshot from which this publication release was prepared.
+
+YOUR STEPS — CONTINUE THE EXISTING ZENODO DRAFT
+1. Keep the existing draft and its reserved DOI: 10.5281/zenodo.24117723. Do not create a second record.
+2. Remove the older ZIP from the draft and upload hPSC_Zenodo_Code_Data_Results_v1.0.2.zip.
+3. Set the Version field to 1.0.2. Keep your entered title, authors, description, both licenses and Public visibility.
+4. Save the draft and preview the record. Publish when the metadata and file are correct.
+5. Send David https://doi.org/10.5281/zenodo.24117723 after the record is published. The reserved DOI becomes registered when you publish.
+
+No account credentials are needed by the assistant. No Zenodo record has been created or published by this packaging work.
+
+Official instructions:
+https://help.zenodo.org/docs/deposit/create-new-upload/
+https://help.zenodo.org/docs/deposit/describe-records/licenses/
+
+CITATION REQUEST
+If you use the models, code, data or results, please cite both the associated paper and this code/data release.
+
+PAPER
+Avikpe, F. R., Alibhai, F. J., Romero, D. A., Mostofinejad, A., Bauer, J. E. S., Montague, E. C., Laflamme, M. A., & Amon, C. H. (in press). In Silico Modeling of Shear Stress and Energy Dissipation Rate Effects on Human Pluripotent Stem Cell Proliferation in Vertical-Wheel Bioreactors. Stem Cells Translational Medicine. Accepted for publication.
+
+CODE/DATA
+Avikpe, F. R., Alibhai, F. J., Romero, D. A., Mostofinejad, A., Bauer, J. E. S., Montague, E. C., Laflamme, M. A., & Amon, C. H. (2026). Code, data and cached results for In Silico Modeling of Shear Stress and Energy Dissipation Rate Effects on Human Pluripotent Stem Cell Proliferation in Vertical-Wheel Bioreactors (Version 1.0.2) [Computer software and data]. Zenodo. https://doi.org/10.5281/zenodo.24117723

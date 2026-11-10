@@ -1,0 +1,3 @@
+parameter,mle,package_lower,package_upper,lower_hits_bound,upper_hits_bound,unconfirmed_points,better_minimum
+K_Lac,99.99999995990554,51.06356125729629,100.00000000000004,false,true,0,false
+Y_GX,3.961389011703238e-6,9.999999999999996e-11,1.2005786955243352e-5,true,false,0,false

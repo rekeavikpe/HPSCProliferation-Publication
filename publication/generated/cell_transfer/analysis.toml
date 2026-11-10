@@ -1,0 +1,10 @@
+treatment_annotation = "Author confirmed dextran sulfate in 585A1. The archived no-DS import flag is superseded; there is no explicit DS term in the model. See publication/culture_metadata_corrections.csv."
+parameters_reestimated = false
+initial_aggregate = "Inherited calibration assumption; absent day-zero aggregate measurements not imputed into observations"
+cohort = "585A1 C9/C13/C21; SCTi003-A SCT3/SCT5/SCT7"
+scope = "Frozen ESI-017 parameter transfer only. Separate cell-line recalibration remains a distinct analysis, not validation."
+initial_glucose = "Measured cell-line mean on day zero, replacing original rounded 22.5 mM"
+fresh_glucose = "Assumed equal to measured initial mean, not independently assayed"
+source_fit = "/Users/ferdinandavikpe/Documents/Codex/2026-10-02/referenced-chatgpt-conversation-this-is-an/outputs/zenodo_release_20261110/relocated_test/HPSCProliferation_v1.0.0/publication/cache/training60/reference_fit"
+exposure = "585A1 50 rpm: linear interpolation between 40/60 rpm CFD at each size, following original script; SCTi003-A direct 40 rpm; size endpoints clamped"
+sampling = "Pre-exchange; 585A1 80% days 2/3, SCTi003-A 50% day 2 and 80% days 3/4"

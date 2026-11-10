@@ -1,0 +1,2 @@
+model,nll,bic,k,stopping_met,boundaries,run,stage,minimum_nll,failed_starts
+5,613.0771851477117,1273.690272206487,10,true,"",run1,polished,613.0771851477117,0

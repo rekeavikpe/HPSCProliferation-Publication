@@ -1,0 +1,26 @@
+[
+  {
+    "path": "data/source/mTesR1_VWBR_100mL_vessel_Data_for_Amon_Lab_March_10_2025.xlsx",
+    "sha256": "77fa52a7219b7da693ccefe49c1e4bddb788a74c4e194d5d31c9c40b98fc0b48"
+  },
+  {
+    "path": "data/source/585A1 and SCTi003-A Cell Counts VWBR- 100mL_For Reke March 10 2025.xlsx",
+    "sha256": "e4aee7018933491f092a18786e2a8d516c8027e29eec185c54a5812da743ddc3"
+  },
+  {
+    "path": "data/source/Particles_REBUILT_ALLNONAN_fromTXT.xlsx",
+    "sha256": "9e69508ceb22d5279cbc054ee83cde2fd057aa0baadd455d8963bb5237587e0f"
+  },
+  {
+    "path": "data/source/Summary_of_VA_EDR_ShearStress.xlsx",
+    "sha256": "5d18b860528d92e3cc814e69c147d3882eff85be2c1993ad8e3105a2ba12a1bf"
+  },
+  {
+    "path": "data/source/Summary_of_FluidDomain_Particle_EDR_ShearStress.xlsx",
+    "sha256": "a88ff024fe4366e3ce83f2c4dc9ff1bb5a3a833ba38a39baeaa4e867a717466f"
+  },
+  {
+    "path": "data/source/Combined100mLand500mLDataAllRPM.csv",
+    "sha256": "f18c5951a54494fbb2340d89f8f69377c404ad41f810b61663b6a24e40f4af48"
+  }
+]

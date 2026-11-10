@@ -1,0 +1,3 @@
+scenario,edr_ratio,area_per_volume_ratio,kla_500_h,qualification
+constant power number geometric scaling,2.924017738212866,0.5848035476425733,1.1798098993231656,surface EDR assumed to follow volume scaling
+volume-average CFD EDR proxy sensitivity,1.726663368156787,0.5848035476425733,1.0342343406591255,available volume-average EDR is not surface EDR; area scaling still assumed

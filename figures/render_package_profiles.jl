@@ -1,0 +1,1 @@
+error("This custom renderer is retired. Use: julia +1.12.4 --project=profile_figures profile_figures/render.jl RESULTS OUTPUT. This calls ProfileLikelihood.plot_profiles with the original manuscript settings; no refitting is required.")

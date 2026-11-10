@@ -1,0 +1,10 @@
+manuscript_discrepancy = "Methods states dextran sulfate for 585A1; original analysis and these source workbook groups are no-DS. Reconcile before final manuscript claims."
+parameters_reestimated = false
+initial_aggregate = "Inherited calibration assumption; absent day-zero aggregate measurements not imputed into observations"
+cohort = "No dextran sulfate: 585A1 C9/C13/C21; SCTi003-A SCT3/SCT5/SCT7"
+scope = "Frozen ESI-017 parameter transfer only. Separate cell-line recalibration remains a distinct analysis, not validation."
+initial_glucose = "Measured cell-line mean on day zero, replacing original rounded 22.5 mM"
+fresh_glucose = "Assumed equal to measured initial mean, not independently assayed"
+source_fit = "/home1/reke/HPSCProliferation-R2/results/training60_final/reference_fit"
+exposure = "585A1 50 rpm: linear interpolation between 40/60 rpm CFD at each size, following original script; SCTi003-A direct 40 rpm; size endpoints clamped"
+sampling = "Pre-exchange; 585A1 80% days 2/3, SCTi003-A 50% day 2 and 80% days 3/4"

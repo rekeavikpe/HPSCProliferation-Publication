@@ -1,0 +1,7 @@
+{
+  "source_file": "mTesR1_VWBR_100mL_vessel_Data_for_Amon_Lab_March_10_2025.xlsx",
+  "source_sha256": "77fa52a7219b7da693ccefe49c1e4bddb788a74c4e194d5d31c9c40b98fc0b48",
+  "source_sheet": "Media Exchange Schedule",
+  "output_sha256": "dd7e334f2e62e0801032dbaad665559bc4fbc40269082f1f8836d1f295f6d753",
+  "note": "Day-zero aggregate zeros are not measured diameters and are excluded; simulation retains the calibration initial-size assumption."
+}

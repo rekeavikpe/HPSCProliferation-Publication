@@ -1,0 +1,15 @@
+Publication release verification — 2026-11-10
+
+PASS: all release integrity hashes and 971 original cached-source hashes.
+PASS: seven primary model fits, calibration and selection likelihood/BIC, and reported 500 mL predictions.
+PASS: seven P75 fits and both recalibration strategies for both iPSC lines.
+PASS: five leave-one-condition-out fits and predictions.
+PASS: all 652 saved points of the nine-parameter profile analysis.
+PASS: all 146 saved points of the two fixed-parameter diagnostic analyses.
+PASS: frozen media-exchange predictions (170 checks) and cell-line transfer (102 checks).
+PASS: regenerated descriptive statistics, hypothesis tests and analytical oxygen scaling.
+PASS: 336 rounded numeric comparisons with the final manuscript/supplementary tables.
+PASS: ten regenerated figure PNGs are pixel-identical to the final submitted versions.
+PASS: full numerical workflow executed from a separately extracted copy of the ZIP, without relying on original cache locations.
+
+Scope: saved fits and likelihood points were replayed through the model. Optimization was not rerun. Software dependencies already installed on this computer were used; this is not a test of installing every dependency on a new operating system. Figure 1 and Figure S4 are supplied coauthor artwork, not regenerated. See README.md for raw-CFD and historical-checkpoint limitations.

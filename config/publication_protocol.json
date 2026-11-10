@@ -1,0 +1,135 @@
+{
+  "status": "Production 60/40 comparison and targeted refinement completed on server; Model 6 selected; unresolved split stopping flags retained. Completed all-100-mL fit verified for reuse on 2026-10-05.",
+  "primary_cohort": "Five 100-mL ESI-017 conditions; retain original IDs in data and show publication IDs 1\u20135",
+  "calibration": {
+    "models": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "starts_per_model": 100,
+    "selection": "Primary: held-out negative log-likelihood on the 40% selection partition. Training BIC reported separately. Within 1e-6 NLL prefer fewer parameters then training BIC.",
+    "fixed_parameters_during_selection": {},
+    "config": "config/calibration_lac100_kg100.toml",
+    "lactate_inhibition": "Original finite factor retained",
+    "K_Lac_upper_mM": 100,
+    "interpretation": "Both upper bounds are operational analysis constraints, not experimentally demonstrated biological maxima or likelihood confidence limits",
+    "K_G_upper_mM": 100,
+    "optimizer": {
+      "workflow": "differential evolution followed directly by Nelder\u2013Mead",
+      "entrypoint": "bash scripts/run_split6040.sh",
+      "population_size": 50,
+      "population_evaluation_limit": 20000,
+      "local_iteration_limit": 3000,
+      "coordinates": "normalized logarithmic parameters",
+      "boundary_handling": "original clipped-coordinate local objective",
+      "stopping_policy": "retain actual optimizer status; do not interpret budget exhaustion as convergence"
+    },
+    "split": {
+      "unit": "whole bioreactor culture",
+      "stratification": "operating condition",
+      "seed": 20261003,
+      "calibration_cultures": 19,
+      "selection_cultures": 12,
+      "noise_weights": "calibration SD with configured floors, applied unchanged to selection",
+      "after_selection": "Reuse the verified matching completed all-100-mL Model 6 fit; refit only if model, numerical settings or data change.",
+      "interpretation": "retrospective internal selection, because the full dataset was inspected during development"
+    }
+  },
+  "conditional_profiles": {
+    "source": "New capped 100-mL calibration, not previous wide-bound estimates",
+    "candidate_fixed_parameters": [
+      "K_G",
+      "K_Lac",
+      "Y_GX"
+    ],
+    "method": "ProfileLikelihood.jl and native plotting",
+    "acceptance": "Verify both threshold crossings, optimization status, nuisance boundaries and likelihood consistency; do not guarantee closure in advance"
+  },
+  "deliverables": [
+    {
+      "id": 1,
+      "figure": "BIC distributions",
+      "source": "Original scripts/19_lagrangian_recalibration.jl: plot_bic_academic",
+      "requirements": "100 starts for each Model 0\u20136; original model order, colours and points; true quartiles; full-range companion and clearly labelled zoom if needed",
+      "status": "Completed 100-start split results; use refined training ranking with original 100-start distributions."
+    },
+    {
+      "id": 2,
+      "figure": "Five-condition calibration",
+      "source": "Original scripts/19_lagrangian_recalibration.jl: forward_grid",
+      "requirements": "Four states \u00d7 five conditions; source palette/markers and combined line-marker legend; matched axes for baseline versus selected model; feeding jumps",
+      "status": "Completed final all-100-mL fit; verified against current numerical kernel."
+    },
+    {
+      "id": 3,
+      "figure": "500-mL prediction",
+      "source": "New four-panel prediction design",
+      "requirements": "Bolder dark teal; Experimental data legend; between-vessel SD stated in caption; frozen 100-mL fits; statewise errors",
+      "status": "Completed using matching all-100-mL parameters; metrics regenerated."
+    },
+    {
+      "id": 4,
+      "figure": "Conditional profile likelihood",
+      "source": "Original fixed-three plotting setup; ProfileLikelihood.plot_profiles",
+      "requirements": "Estimate fixed values from the new capped calibration; eight profiles if Model 6 remains selected; retain unrestricted profiles and boundary sensitivity in SI",
+      "status": "Completed eight conditional profiles with KG, KLac and YGX fixed at the same all-data fit."
+    },
+    {
+      "id": 5,
+      "figure": "20% and 50% media exchange",
+      "source": "Original scripts/24_media_change_p50.jl",
+      "requirements": "Original 2\u00d72 paired protocol design; 20% blue and 50% red; pre-feed observations and explicit feed jumps; no outcome-based parameter tuning",
+      "status": "Completed and source parameter hashes verified."
+    },
+    {
+      "id": 6,
+      "figure": "585A1 and SCTi003-A",
+      "source": "Original scripts/08_cell_line_transfer.jl",
+      "requirements": "Frozen Model 6 transfer first; separate line-specific recalibration of the original seven biological parameters, hydrodynamic parameters and K_Lac/Y_GX held fixed; label recalibration in-sample",
+      "status": "Transfer and line-specific recalibration completed; no-DS cohort wording still needs reconciliation."
+    }
+  ],
+  "additional_reviewer_results": [
+    "Exposure-summary comparison under final training policy",
+    "Shear-only and EDR-only ablations versus baseline and combined model",
+    "Replicate-aware aggregate statistics and original C4/C5 contrast",
+    "Oxygen calculation/source audit and sensitivity",
+    "Structural identifiability scope and old-to-new model mapping",
+    "All statewise MRPE/RMSE/bias, units and source-data sensitivities"
+  ],
+  "handoff": [
+    "Frozen config, code commit and parameter-set IDs",
+    "All final figure formats and source data",
+    "Main and SI tables with identical parameter provenance",
+    "Reviewer action matrix linked to exact final artifacts",
+    "Results summary and unresolved limitations for manuscript rewriting"
+  ],
+  "completion_rule": "Every reviewer item has a verified artifact or explicit limitation; no stale figures from earlier calibration branches presented as final",
+  "model_numbering": {
+    "version": "publication-2026-10-05",
+    "publication_to_original": {
+      "0": 0,
+      "1": 1,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 7,
+      "6": 6
+    },
+    "storage_to_publication": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 6,
+      "6": 5
+    },
+    "note": "Original Model 6 retains publication number 6. Storage IDs and checkpoints retain their prior numbering; figure labels and publication exports use this mapping."
+  }
+}

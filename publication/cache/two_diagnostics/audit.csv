@@ -1,0 +1,3 @@
+parameter,points,lower_crossed,upper_crossed,numerical_review_required,status,lower,upper
+K_Lac,11,true,false,false,upper limit unresolved within tested bounds,51.06356125729629,NaN
+Y_GX,135,false,true,false,lower limit unresolved within tested bounds,NaN,1.2005786955243352e-5

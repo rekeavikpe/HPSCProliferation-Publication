@@ -1,0 +1,122 @@
+[
+  {
+    "figure": "Figure2_selection_BIC.png",
+    "regenerated_size": [
+      4271,
+      1992
+    ],
+    "submitted_size": [
+      4271,
+      1992
+    ],
+    "pixels_identical": true
+  },
+  {
+    "figure": "Figure3_Model6_all_conditions.png",
+    "regenerated_size": [
+      5764,
+      6985
+    ],
+    "submitted_size": [
+      5764,
+      6985
+    ],
+    "pixels_identical": true
+  },
+  {
+    "figure": "Figure4_media_exchange.png",
+    "regenerated_size": [
+      3097,
+      2325
+    ],
+    "submitted_size": [
+      3097,
+      2325
+    ],
+    "pixels_identical": true
+  },
+  {
+    "figure": "FigureS1_exposure_correlation.png",
+    "regenerated_size": [
+      4265,
+      1857
+    ],
+    "submitted_size": [
+      4265,
+      1857
+    ],
+    "pixels_identical": true
+  },
+  {
+    "figure": "FigureS2_shear_rpm.png",
+    "regenerated_size": [
+      4292,
+      1962
+    ],
+    "submitted_size": [
+      4292,
+      1962
+    ],
+    "pixels_identical": true
+  },
+  {
+    "figure": "FigureS3_edr_rpm.png",
+    "regenerated_size": [
+      4364,
+      1962
+    ],
+    "submitted_size": [
+      4364,
+      1962
+    ],
+    "pixels_identical": true
+  },
+  {
+    "figure": "FigureS5_Model6_profiles.png",
+    "regenerated_size": [
+      3408,
+      2964
+    ],
+    "submitted_size": [
+      3408,
+      2964
+    ],
+    "pixels_identical": true
+  },
+  {
+    "figure": "FigureS6_fixed_parameter_profiles.png",
+    "regenerated_size": [
+      3123,
+      1197
+    ],
+    "submitted_size": [
+      3123,
+      1197
+    ],
+    "pixels_identical": true
+  },
+  {
+    "figure": "FigureS7_iPSC_recalibration.png",
+    "regenerated_size": [
+      5942,
+      3513
+    ],
+    "submitted_size": [
+      5942,
+      3513
+    ],
+    "pixels_identical": true
+  },
+  {
+    "figure": "FigureS8_iPSC_profiles.png",
+    "regenerated_size": [
+      5091,
+      2931
+    ],
+    "submitted_size": [
+      5091,
+      2931
+    ],
+    "pixels_identical": true
+  }
+]

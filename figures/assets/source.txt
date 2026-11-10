@@ -1,0 +1,2 @@
+Figure1_original.jpg: unmodified copy of author-supplied Figure1.jpg from manuscript Version 18, 2_figures. Used only as a preserved raster panel in a native CairoMakie composition. No CFD values, colour scales or source labels edited.
+SHA256: b71f2bc29dcc7afbe4217080436124d5065b670e72d9f0458cc181a673f83bc8

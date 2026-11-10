@@ -1,0 +1,16 @@
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1
+[ Info: Assessing local identifiability
+[ Info: Assessing global identifiability
+[ Info: Note: the input model has nontrivial submodels. If the computation for the full model will be too heavy, you may want to try to first analyze one of the submodels. They can be produced using function `find_submodels`
+[ Info: Computing IO-equations
+[ Info: Computed IO-equations in 5.033306333 seconds
+[ Info: Computing Wronskians
+[ Info: Computed Wronskians in 1.305428417 seconds
+[ Info: Dimensions of the Wronskians [17, 9, 10, 1, 10]
+[ Info: Ranks of the Wronskians computed in 0.010197125 seconds
+[ Info: Global identifiability assessed in 11.338560083 seconds
+[(model = 5, design = "single40", segment = 0, parameter = "K_Agg", classification = "globally", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "K_G", classification = "globally", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "K_Lac", classification = "globally", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "K_d", classification = "globally", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "K_eps", classification = "globally", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "K_oG", classification = "globally", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "K_tau", classification = "nonidentifiable", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "Y_GLac", classification = "globally", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "Y_GX", classification = "globally", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "alpha", classification = "globally", mode = "global"), (model = 5, design = "single40", segment = 0, parameter = "mu_max", classification = "nonidentifiable", mode = "global")]

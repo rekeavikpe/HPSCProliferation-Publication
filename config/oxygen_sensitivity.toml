@@ -1,0 +1,21 @@
+q_reference_amol_cell_s = 17.7
+q_multipliers = [0.5, 1.0, 2.0]
+q_note = "Reference from TC1133 iPSC aggregates on day 7, Kim et al. 2025, section 3.3; not measured in ESI-017. Multipliers are exploratory scenarios, not confidence limits."
+cstar_mol_L = 0.00021
+cstar_note = "Air-saturated reference at 37 C used by Kim et al.; actual medium saturation not measured here."
+kla_grid_min_h = 0.1
+kla_grid_max_h = 10.0
+kla_grid_points = 101
+kla_grid_note = "Exploratory transfer-capacity range, not an experimentally validated interval for either vessel."
+kla_500_assumed_h = 1.8
+kla_500_note = "Inherited assumption only; no measured or source-validated 500-mL kLa."
+wheel_diameter_assumed_m = 0.0415
+wheel_note = "Wheel diameter verified from Neto author repository Data_Treatment/MATLAB/Constants.m: const.D = 0.0415 m. Configuration key retained for compatibility; water properties remain conditional."
+wheel_source = "https://github.com/Pedro-Miguel-Neto/PBS-MINI-0.1L/blob/main/Data_Treatment/MATLAB/Constants.m"
+area_100_m2 = 0.001637976
+area_source = "Neto author repository Specs/P2Dict.txt: 0.001637976 m2 at 100 mL; Table 1 rounds this to 16.4 cm2."
+temperature_C = 37.0
+pressure_bar = 1.01325
+properties_note = "Neto author functions for water density and kinematic viscosity; linear fit to the original 21 oxygen-diffusivity observations. Evaluated at temperature_C and pressure_bar. These are water estimates, not culture-medium measurements."
+neto_source = "https://pmc.ncbi.nlm.nih.gov/articles/PMC9405225/"
+kim_source = "https://pmc.ncbi.nlm.nih.gov/articles/PMC12024368/"

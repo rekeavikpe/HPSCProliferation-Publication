@@ -1,0 +1,4 @@
+endpoint,comparison,method,statistic,p_value
+aggregate_day5,100 mL: 30 vs 40 vs 60 RPM,"Kruskal-Wallis, tie corrected, chi-square approximation",16.799999999999997,0.0002248673241788486
+cells_fold_day1_day5,100 mL: 30 vs 40 vs 60 RPM,"Kruskal-Wallis, tie corrected, chi-square approximation",2.2940476190476318,0.317580544447033
+aggregate_day5,100 vs 500 mL at 30 RPM,"Kruskal-Wallis two-group rank comparison, tie corrected",8.68055555555555,0.0032162293101274625

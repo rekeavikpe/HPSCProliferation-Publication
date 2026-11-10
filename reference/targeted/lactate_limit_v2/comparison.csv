@@ -1,0 +1,3 @@
+formulation,nll,bic,k,stopping_met
+bounded lactate inhibition,613.0855788334501,1278.4606497690702,11,true
+exact inactive inhibition,613.0771851477117,1273.690272206487,10,true

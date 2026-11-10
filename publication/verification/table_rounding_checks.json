@@ -1,0 +1,2022 @@
+{
+  "status": "PASS",
+  "numeric_comparisons": 336,
+  "checks": [
+    {
+      "item": "Table1 Model0",
+      "calculated": 1534.412380736149,
+      "paper_display": "1534.41",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table1 Model1",
+      "calculated": 1465.0035970251201,
+      "paper_display": "1465.00",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table1 Model3",
+      "calculated": 1465.0394130292489,
+      "paper_display": "1465.04",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table1 Model4",
+      "calculated": 1506.4014641988447,
+      "paper_display": "1506.40",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table1 Model5",
+      "calculated": 1465.1596736977144,
+      "paper_display": "1465.16",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table1 Model6",
+      "calculated": 1458.729571439184,
+      "paper_display": "1458.73",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table1 Model7",
+      "calculated": 1469.7579485127917,
+      "paper_display": "1469.76",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table2 mu_max",
+      "calculated": 0.10705164761327142,
+      "paper_display": "0.107",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "Table2 mu_max lower",
+      "calculated": 0.06491392605995581,
+      "paper_display": "0.0649",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "Table2 mu_max upper",
+      "calculated": 0.4330902965655959,
+      "paper_display": "0.433",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "Table2 K_d",
+      "calculated": 0.12861179624457267,
+      "paper_display": "0.129",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "Table2 K_d lower",
+      "calculated": 0.11044187690805611,
+      "paper_display": "0.110",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "Table2 K_d upper",
+      "calculated": 0.14884144840159733,
+      "paper_display": "0.149",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "Table2 K_oG",
+      "calculated": 2.9707904749030946e-06,
+      "paper_display": "2.97 \u00d7 10\u207b\u2076",
+      "rounding_tolerance": 5.00001e-09
+    },
+    {
+      "item": "Table2 K_oG lower",
+      "calculated": 2.7051460839690736e-06,
+      "paper_display": "2.71 \u00d7 10\u207b\u2076",
+      "rounding_tolerance": 5.00001e-09
+    },
+    {
+      "item": "Table2 K_oG upper",
+      "calculated": 3.274407697542423e-06,
+      "paper_display": "3.27 \u00d7 10\u207b\u2076",
+      "rounding_tolerance": 5.00001e-09
+    },
+    {
+      "item": "Table2 Y_GLac",
+      "calculated": 0.4249031120617299,
+      "paper_display": "0.425",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "Table2 Y_GLac lower",
+      "calculated": 0.3890277433948738,
+      "paper_display": "0.389",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "Table2 Y_GLac upper",
+      "calculated": 0.4624283754996204,
+      "paper_display": "0.462",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "Table2 alpha",
+      "calculated": 57.579232178080794,
+      "paper_display": "57.6",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table2 alpha lower",
+      "calculated": 52.001907388786016,
+      "paper_display": "52.0",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table2 alpha upper",
+      "calculated": 63.71603038485687,
+      "paper_display": "63.7",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table2 K_Agg",
+      "calculated": 52184720.0001411,
+      "paper_display": "5.22 \u00d7 10\u2077",
+      "rounding_tolerance": 50000.100000000006
+    },
+    {
+      "item": "Table2 K_Agg lower",
+      "calculated": 26400844.37274387,
+      "paper_display": "2.64 \u00d7 10\u2077",
+      "rounding_tolerance": 50000.100000000006
+    },
+    {
+      "item": "Table2 K_Agg upper",
+      "calculated": 279353352.4297582,
+      "paper_display": "2.79 \u00d7 10\u2078",
+      "rounding_tolerance": 500001.0
+    },
+    {
+      "item": "Table2 K_tau",
+      "calculated": 0.008332187490707774,
+      "paper_display": "8.33 \u00d7 10\u207b\u00b3",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "Table2 K_tau lower",
+      "calculated": 0.006296099962370986,
+      "paper_display": "6.30 \u00d7 10\u207b\u00b3",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "Table2 K_tau upper",
+      "calculated": 0.011428157438334127,
+      "paper_display": "1.14 \u00d7 10\u207b\u00b2",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "Table2 K_eps",
+      "calculated": 0.009850726530023647,
+      "paper_display": "9.85 \u00d7 10\u207b\u00b3",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "Table2 K_eps lower",
+      "calculated": 0.004911564557614578,
+      "paper_display": "4.91 \u00d7 10\u207b\u00b3",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "Table2 K_eps upper",
+      "calculated": 0.09781809554463032,
+      "paper_display": "9.78 \u00d7 10\u207b\u00b2",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "Table2 K_G",
+      "calculated": 14.062081299394762,
+      "paper_display": "14.06",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table2 K_G lower",
+      "calculated": 4.141980973689278,
+      "paper_display": "4.14",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table2 K_G upper",
+      "calculated": 94.3422959213041,
+      "paper_display": "94.34",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "Table2 K_Lac",
+      "calculated": 100.00000000000004,
+      "paper_display": "100",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "Table2 Y_GX",
+      "calculated": 3.961389011394862e-06,
+      "paper_display": "3.96 \u00d7 10\u207b\u2076",
+      "rounding_tolerance": 5.00001e-09
+    },
+    {
+      "item": "Table3 calibration cells",
+      "calculated": 16.60562973084469,
+      "paper_display": "16.6",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 calibration glucose",
+      "calculated": 7.516624824796843,
+      "paper_display": "7.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 calibration lactate",
+      "calculated": 19.432990227566545,
+      "paper_display": "19.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 calibration aggregate",
+      "calculated": 13.330116512459869,
+      "paper_display": "13.3",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 calibration all",
+      "calculated": 14.221340323916985,
+      "paper_display": "14.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 selection cells",
+      "calculated": 22.258547087666777,
+      "paper_display": "22.3",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 selection glucose",
+      "calculated": 9.775433801329815,
+      "paper_display": "9.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 selection lactate",
+      "calculated": 16.898610877831175,
+      "paper_display": "16.9",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 selection aggregate",
+      "calculated": 20.711357253546975,
+      "paper_display": "20.7",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 selection all",
+      "calculated": 17.410987255093687,
+      "paper_display": "17.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model0_500mL cells",
+      "calculated": 37.02745275119018,
+      "paper_display": "37.0",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model0_500mL glucose",
+      "calculated": 14.85481015901515,
+      "paper_display": "14.9",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model0_500mL lactate",
+      "calculated": 22.447795780309967,
+      "paper_display": "22.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model0_500mL aggregate",
+      "calculated": 21.29222357909491,
+      "paper_display": "21.3",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model0_500mL all",
+      "calculated": 23.905570567402552,
+      "paper_display": "23.9",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 variability Model0_500mL",
+      "calculated": 14.987970359518838,
+      "paper_display": "15.0",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model6_500mL cells",
+      "calculated": 24.603473116696115,
+      "paper_display": "24.6",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model6_500mL glucose",
+      "calculated": 11.403963626504563,
+      "paper_display": "11.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model6_500mL lactate",
+      "calculated": 13.795024347013317,
+      "paper_display": "13.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model6_500mL aggregate",
+      "calculated": 14.13465537026443,
+      "paper_display": "14.1",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 Model6_500mL all",
+      "calculated": 15.984279115119607,
+      "paper_display": "16.0",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 variability Model6_500mL",
+      "calculated": 14.987970359518838,
+      "paper_display": "15.0",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media20 cells",
+      "calculated": 21.51682616283241,
+      "paper_display": "21.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media20 glucose",
+      "calculated": 12.454845370187668,
+      "paper_display": "12.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media20 lactate",
+      "calculated": 18.841487495647474,
+      "paper_display": "18.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media20 aggregate",
+      "calculated": 18.62289049774129,
+      "paper_display": "18.6",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media20 all",
+      "calculated": 17.85901238160221,
+      "paper_display": "17.9",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 variability media20",
+      "calculated": 12.09899225554511,
+      "paper_display": "12.1",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media50 cells",
+      "calculated": 20.59915706967795,
+      "paper_display": "20.6",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media50 glucose",
+      "calculated": 14.198717721319127,
+      "paper_display": "14.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media50 lactate",
+      "calculated": 11.336887172186424,
+      "paper_display": "11.3",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media50 aggregate",
+      "calculated": 15.089942111760779,
+      "paper_display": "15.1",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 media50 all",
+      "calculated": 15.306176018736071,
+      "paper_display": "15.3",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "Table3 variability media50",
+      "calculated": 9.83015297664787,
+      "paper_display": "9.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "TableS1 condition1",
+      "calculated": 4,
+      "paper_display": "4",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "TableS1 condition2",
+      "calculated": 8,
+      "paper_display": "8",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "TableS1 condition3",
+      "calculated": 6,
+      "paper_display": "6",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "TableS1 condition4",
+      "calculated": 9,
+      "paper_display": "9",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "TableS1 condition5",
+      "calculated": 7,
+      "paper_display": "7",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "TableS1 condition6",
+      "calculated": 6,
+      "paper_display": "6",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "S2(100, 30, None, 'mean')",
+      "calculated": 0.002835894879402714,
+      "paper_display": "2.84 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, None, 'p50')",
+      "calculated": 0.0038279,
+      "paper_display": "3.83 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, None, 'p75')",
+      "calculated": 0.0059547,
+      "paper_display": "5.95 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, None, 'p90')",
+      "calculated": 0.009483,
+      "paper_display": "9.48 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, None, 'max')",
+      "calculated": 0.092408,
+      "paper_display": "9.24 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(100, 30, 200, 'mean')",
+      "calculated": 0.003105464793627469,
+      "paper_display": "3.11 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, 200, 'p50')",
+      "calculated": 0.0025891305,
+      "paper_display": "2.59 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, 200, 'p75')",
+      "calculated": 0.00362090275,
+      "paper_display": "3.62 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, 200, 'p90')",
+      "calculated": 0.005451582399999999,
+      "paper_display": "5.45 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, 200, 'max')",
+      "calculated": 0.061628085,
+      "paper_display": "6.16 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(100, 30, 400, 'mean')",
+      "calculated": 0.003817654852430433,
+      "paper_display": "3.82 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, 400, 'p50')",
+      "calculated": 0.0030960735,
+      "paper_display": "3.10 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, 400, 'p75')",
+      "calculated": 0.004586248,
+      "paper_display": "4.59 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, 400, 'p90')",
+      "calculated": 0.0068800722,
+      "paper_display": "6.88 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 30, 400, 'max')",
+      "calculated": 0.076270013,
+      "paper_display": "7.63 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(100, 40, None, 'mean')",
+      "calculated": 0.00367692785370753,
+      "paper_display": "3.68 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, None, 'p50')",
+      "calculated": 0.0052131,
+      "paper_display": "5.21 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, None, 'p75')",
+      "calculated": 0.0080922,
+      "paper_display": "8.09 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, None, 'p90')",
+      "calculated": 0.012766,
+      "paper_display": "1.28 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(100, 40, None, 'max')",
+      "calculated": 0.12393,
+      "paper_display": "1.24 \u00d7 10\u22121",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S2(100, 40, 200, 'mean')",
+      "calculated": 0.00289899401381356,
+      "paper_display": "2.90 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, 200, 'p50')",
+      "calculated": 0.002549014,
+      "paper_display": "2.55 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, 200, 'p75')",
+      "calculated": 0.00362375,
+      "paper_display": "3.62 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, 200, 'p90')",
+      "calculated": 0.0050352802,
+      "paper_display": "5.04 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, 200, 'max')",
+      "calculated": 0.079810224,
+      "paper_display": "7.98 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(100, 40, 400, 'mean')",
+      "calculated": 0.004390820780371747,
+      "paper_display": "4.39 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, 400, 'p50')",
+      "calculated": 0.0039111015,
+      "paper_display": "3.91 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, 400, 'p75')",
+      "calculated": 0.0052699455,
+      "paper_display": "5.27 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, 400, 'p90')",
+      "calculated": 0.006984298000000001,
+      "paper_display": "6.98 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 40, 400, 'max')",
+      "calculated": 0.079285794,
+      "paper_display": "7.93 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(100, 60, None, 'mean')",
+      "calculated": 0.005445634999860279,
+      "paper_display": "5.45 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 60, None, 'p50')",
+      "calculated": 0.0085101,
+      "paper_display": "8.51 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 60, None, 'p75')",
+      "calculated": 0.013209,
+      "paper_display": "1.32 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(100, 60, None, 'p90')",
+      "calculated": 0.021025,
+      "paper_display": "2.10 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(100, 60, None, 'max')",
+      "calculated": 0.18998,
+      "paper_display": "1.90 \u00d7 10\u22121",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S2(100, 60, 200, 'mean')",
+      "calculated": 0.00518179266230885,
+      "paper_display": "5.18 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 60, 200, 'p50')",
+      "calculated": 0.004418696,
+      "paper_display": "4.42 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 60, 200, 'p75')",
+      "calculated": 0.006474534,
+      "paper_display": "6.47 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 60, 200, 'p90')",
+      "calculated": 0.009227598400000002,
+      "paper_display": "9.23 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 60, 200, 'max')",
+      "calculated": 0.187731228,
+      "paper_display": "1.88 \u00d7 10\u22121",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S2(100, 60, 400, 'mean')",
+      "calculated": 0.006759199548612234,
+      "paper_display": "6.76 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 60, 400, 'p50')",
+      "calculated": 0.005809625,
+      "paper_display": "5.81 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 60, 400, 'p75')",
+      "calculated": 0.008349817,
+      "paper_display": "8.35 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(100, 60, 400, 'p90')",
+      "calculated": 0.0117278858,
+      "paper_display": "1.17 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(100, 60, 400, 'max')",
+      "calculated": 0.150926489,
+      "paper_display": "1.51 \u00d7 10\u22121",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S2(500, 30, None, 'mean')",
+      "calculated": 0.002713067826547545,
+      "paper_display": "2.71 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, None, 'p50')",
+      "calculated": 0.005148,
+      "paper_display": "5.15 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, None, 'p75')",
+      "calculated": 0.0086727,
+      "paper_display": "8.67 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, None, 'p90')",
+      "calculated": 0.015131,
+      "paper_display": "1.51 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S2(500, 30, None, 'max')",
+      "calculated": 0.32326111775402,
+      "paper_display": "3.23 \u00d7 10\u22121",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S2(500, 30, 200, 'mean')",
+      "calculated": 0.002958960784310514,
+      "paper_display": "2.96 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, 200, 'p50')",
+      "calculated": 0.0022365585,
+      "paper_display": "2.24 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, 200, 'p75')",
+      "calculated": 0.003608886,
+      "paper_display": "3.61 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, 200, 'p90')",
+      "calculated": 0.005556527199999997,
+      "paper_display": "5.56 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, 200, 'max')",
+      "calculated": 0.130727721,
+      "paper_display": "1.31 \u00d7 10\u22121",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S2(500, 30, 400, 'mean')",
+      "calculated": 0.00367903310274394,
+      "paper_display": "3.68 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, 400, 'p50')",
+      "calculated": 0.002939735,
+      "paper_display": "2.94 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, 400, 'p75')",
+      "calculated": 0.0044838635,
+      "paper_display": "4.48 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, 400, 'p90')",
+      "calculated": 0.006827283600000001,
+      "paper_display": "6.83 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S2(500, 30, 400, 'max')",
+      "calculated": 0.105050549,
+      "paper_display": "1.05 \u00d7 10\u22121",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S3(100, 30, None, 'mean')",
+      "calculated": 0.0001735784480865342,
+      "paper_display": "1.74 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, None, 'p50')",
+      "calculated": 0.00017619,
+      "paper_display": "1.76 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, None, 'p75')",
+      "calculated": 0.00032054,
+      "paper_display": "3.21 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, None, 'p90')",
+      "calculated": 0.00057047,
+      "paper_display": "5.70 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, None, 'max')",
+      "calculated": 0.0076803,
+      "paper_display": "7.68 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 30, 200, 'mean')",
+      "calculated": 0.0001711741103829725,
+      "paper_display": "1.71 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, 200, 'p50')",
+      "calculated": 0.000107,
+      "paper_display": "1.07 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, 200, 'p75')",
+      "calculated": 0.00019,
+      "paper_display": "1.90 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, 200, 'p90')",
+      "calculated": 0.000383,
+      "paper_display": "3.83 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, 200, 'max')",
+      "calculated": 0.005867731,
+      "paper_display": "5.87 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 30, 400, 'mean')",
+      "calculated": 0.0002065448807285408,
+      "paper_display": "2.07 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, 400, 'p50')",
+      "calculated": 0.000131,
+      "paper_display": "1.31 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, 400, 'p75')",
+      "calculated": 0.000227,
+      "paper_display": "2.27 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, 400, 'p90')",
+      "calculated": 0.000471,
+      "paper_display": "4.71 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 30, 400, 'max')",
+      "calculated": 0.004379387,
+      "paper_display": "4.38 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 40, None, 'mean')",
+      "calculated": 0.00033511934020923805,
+      "paper_display": "3.35 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, None, 'p50')",
+      "calculated": 0.00035115,
+      "paper_display": "3.51 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, None, 'p75')",
+      "calculated": 0.00065508,
+      "paper_display": "6.55 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, None, 'p90')",
+      "calculated": 0.0011978,
+      "paper_display": "1.20 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 40, None, 'max')",
+      "calculated": 0.014541,
+      "paper_display": "1.45 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S3(100, 40, 200, 'mean')",
+      "calculated": 0.0001902411687288136,
+      "paper_display": "1.90 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, 200, 'p50')",
+      "calculated": 0.000143,
+      "paper_display": "1.43 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, 200, 'p75')",
+      "calculated": 0.000251,
+      "paper_display": "2.51 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, 200, 'p90')",
+      "calculated": 0.00036,
+      "paper_display": "3.60 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, 200, 'max')",
+      "calculated": 0.003895166,
+      "paper_display": "3.90 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 40, 400, 'mean')",
+      "calculated": 0.0003009244889591077,
+      "paper_display": "3.01 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, 400, 'p50')",
+      "calculated": 0.000243,
+      "paper_display": "2.43 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, 400, 'p75')",
+      "calculated": 0.000339,
+      "paper_display": "3.39 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, 400, 'p90')",
+      "calculated": 0.000494,
+      "paper_display": "4.94 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 40, 400, 'max')",
+      "calculated": 0.004970639,
+      "paper_display": "4.97 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 60, None, 'mean')",
+      "calculated": 0.0009299924503180517,
+      "paper_display": "9.30 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 60, None, 'p50')",
+      "calculated": 0.00098973,
+      "paper_display": "9.90 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 60, None, 'p75')",
+      "calculated": 0.002017,
+      "paper_display": "2.02 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 60, None, 'p90')",
+      "calculated": 0.0037765,
+      "paper_display": "3.78 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 60, None, 'max')",
+      "calculated": 0.06432,
+      "paper_display": "6.43 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S3(100, 60, 200, 'mean')",
+      "calculated": 0.0007202299026104234,
+      "paper_display": "7.20 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 60, 200, 'p50')",
+      "calculated": 0.000503,
+      "paper_display": "5.03 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 60, 200, 'p75')",
+      "calculated": 0.000788,
+      "paper_display": "7.88 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 60, 200, 'p90')",
+      "calculated": 0.0015059298,
+      "paper_display": "1.51 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 60, 200, 'max')",
+      "calculated": 0.033867227,
+      "paper_display": "3.39 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S3(100, 60, 400, 'mean')",
+      "calculated": 0.0009691261735628687,
+      "paper_display": "9.69 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 60, 400, 'p50')",
+      "calculated": 0.000589,
+      "paper_display": "5.89 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(100, 60, 400, 'p75')",
+      "calculated": 0.001039871,
+      "paper_display": "1.04 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 60, 400, 'p90')",
+      "calculated": 0.0023375224,
+      "paper_display": "2.34 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(100, 60, 400, 'max')",
+      "calculated": 0.034305743,
+      "paper_display": "3.43 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S3(500, 30, None, 'mean')",
+      "calculated": 0.00029971154781252313,
+      "paper_display": "3.00 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, None, 'p50')",
+      "calculated": 0.00040169,
+      "paper_display": "4.02 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, None, 'p75')",
+      "calculated": 0.00090646,
+      "paper_display": "9.06 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, None, 'p90')",
+      "calculated": 0.0018146,
+      "paper_display": "1.81 \u00d7 10\u22123",
+      "rounding_tolerance": 5.000010000000001e-06
+    },
+    {
+      "item": "S3(500, 30, None, 'max')",
+      "calculated": 0.0296284378869384,
+      "paper_display": "2.96 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S3(500, 30, 200, 'mean')",
+      "calculated": 0.0002765868653003291,
+      "paper_display": "2.77 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, 200, 'p50')",
+      "calculated": 0.000144,
+      "paper_display": "1.44 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, 200, 'p75')",
+      "calculated": 0.000293,
+      "paper_display": "2.93 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, 200, 'p90')",
+      "calculated": 0.00069,
+      "paper_display": "6.90 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, 200, 'max')",
+      "calculated": 0.020260828,
+      "paper_display": "2.03 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S3(500, 30, 400, 'mean')",
+      "calculated": 0.0003435145024960889,
+      "paper_display": "3.44 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, 400, 'p50')",
+      "calculated": 0.000188,
+      "paper_display": "1.88 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, 400, 'p75')",
+      "calculated": 0.000386,
+      "paper_display": "3.86 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, 400, 'p90')",
+      "calculated": 0.00084,
+      "paper_display": "8.40 \u00d7 10\u22124",
+      "rounding_tolerance": 5.00001e-07
+    },
+    {
+      "item": "S3(500, 30, 400, 'max')",
+      "calculated": 0.019964826,
+      "paper_display": "2.00 \u00d7 10\u22122",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S4 mean 5",
+      "calculated": 330.81934083014636,
+      "paper_display": "330.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S4 SD 5",
+      "calculated": 22.35588279777591,
+      "paper_display": "22.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S4 n 5",
+      "calculated": 6,
+      "paper_display": "6",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "S4 mean 2",
+      "calculated": 253.089083875,
+      "paper_display": "253.1",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S4 SD 2",
+      "calculated": 15.938756235372,
+      "paper_display": "15.9",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S4 n 2",
+      "calculated": 8,
+      "paper_display": "8",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "S4 mean 6",
+      "calculated": 205.39132366666666,
+      "paper_display": "205.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S4 SD 6",
+      "calculated": 10.167092669993592,
+      "paper_display": "10.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S4 n 6",
+      "calculated": 6,
+      "paper_display": "6",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "S4 mean 4",
+      "calculated": 261.8339998888889,
+      "paper_display": "261.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S4 SD 4",
+      "calculated": 38.533322407049,
+      "paper_display": "38.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S4 n 4",
+      "calculated": 9,
+      "paper_display": "9",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "S5 peak 1",
+      "calculated": 0.547,
+      "paper_display": "0.55",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 kLa 1",
+      "calculated": 1.807791251790996,
+      "paper_display": "1.81",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 Da 1",
+      "calculated": 0.09181116924146811,
+      "paper_display": "0.092",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S5 peak 2",
+      "calculated": 1.326730939716312,
+      "paper_display": "1.33",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 kLa 2",
+      "calculated": 1.807791251790996,
+      "paper_display": "1.81",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 Da 2",
+      "calculated": 0.22268504359083424,
+      "paper_display": "0.223",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S5 peak 3",
+      "calculated": 1.67375,
+      "paper_display": "1.67",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 kLa 3",
+      "calculated": 1.807791251790996,
+      "paper_display": "1.81",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 Da 3",
+      "calculated": 0.2809304287347481,
+      "paper_display": "0.281",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S5 peak 4",
+      "calculated": 1.0289851851851852,
+      "paper_display": "1.03",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 kLa 4",
+      "calculated": 1.1798098993231656,
+      "paper_display": "1.18",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 Da 4",
+      "calculated": 0.264638824391134,
+      "paper_display": "0.265",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S5 Da lower",
+      "calculated": 0.03469150052910053,
+      "paper_display": "0.03",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 Da upper",
+      "calculated": 0.7095988744588744,
+      "paper_display": "0.71",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 peak 5",
+      "calculated": 1.0598333333333332,
+      "paper_display": "1.06",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 kLa 5",
+      "calculated": 1.5427907863504995,
+      "paper_display": "1.54",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 Da 5",
+      "calculated": 0.20844285377567398,
+      "paper_display": "0.208",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S5 peak 6",
+      "calculated": 1.0525,
+      "paper_display": "1.05",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 kLa 6",
+      "calculated": 2.2603441304244303,
+      "paper_display": "2.26",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S5 Da 6",
+      "calculated": 0.14128758852688716,
+      "paper_display": "0.141",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S6 BIC 6",
+      "calculated": 1458.729571439184,
+      "paper_display": "1458.73",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 6 cells",
+      "calculated": 22.258547087666777,
+      "paper_display": "22.26",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 6 glucose",
+      "calculated": 9.775433801329815,
+      "paper_display": "9.78",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 6 lactate",
+      "calculated": 16.898610877831175,
+      "paper_display": "16.90",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 6 aggregate",
+      "calculated": 20.711357253546975,
+      "paper_display": "20.71",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 6 all",
+      "calculated": 17.410987255093687,
+      "paper_display": "17.41",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 BIC 1",
+      "calculated": 1465.0035970251201,
+      "paper_display": "1465.00",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 1 cells",
+      "calculated": 22.28688810499198,
+      "paper_display": "22.29",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 1 glucose",
+      "calculated": 9.811930453837752,
+      "paper_display": "9.81",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 1 lactate",
+      "calculated": 16.903685849402514,
+      "paper_display": "16.90",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 1 aggregate",
+      "calculated": 20.89818031609148,
+      "paper_display": "20.90",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 1 all",
+      "calculated": 17.47517118108093,
+      "paper_display": "17.48",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 BIC 3",
+      "calculated": 1465.0394130292489,
+      "paper_display": "1465.04",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 3 cells",
+      "calculated": 22.278744820734833,
+      "paper_display": "22.28",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 3 glucose",
+      "calculated": 9.816761891803122,
+      "paper_display": "9.82",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 3 lactate",
+      "calculated": 16.90840546293568,
+      "paper_display": "16.91",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 3 aggregate",
+      "calculated": 20.901364290941554,
+      "paper_display": "20.90",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 3 all",
+      "calculated": 17.476319116603797,
+      "paper_display": "17.48",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 BIC 5",
+      "calculated": 1465.1596736977144,
+      "paper_display": "1465.16",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 5 cells",
+      "calculated": 22.25197233254452,
+      "paper_display": "22.25",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 5 glucose",
+      "calculated": 9.832981285144971,
+      "paper_display": "9.83",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 5 lactate",
+      "calculated": 16.923430620620007,
+      "paper_display": "16.92",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 5 aggregate",
+      "calculated": 20.911547311655603,
+      "paper_display": "20.91",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 5 all",
+      "calculated": 17.479982887491275,
+      "paper_display": "17.48",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 BIC 7",
+      "calculated": 1469.7579485127917,
+      "paper_display": "1469.76",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 7 cells",
+      "calculated": 22.286837978377495,
+      "paper_display": "22.29",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 7 glucose",
+      "calculated": 9.811839160677634,
+      "paper_display": "9.81",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 7 lactate",
+      "calculated": 16.903662682906855,
+      "paper_display": "16.90",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 7 aggregate",
+      "calculated": 20.89817217679856,
+      "paper_display": "20.90",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 7 all",
+      "calculated": 17.475127999690137,
+      "paper_display": "17.48",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 BIC 4",
+      "calculated": 1506.4014641988447,
+      "paper_display": "1506.40",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 4 cells",
+      "calculated": 23.569244924742147,
+      "paper_display": "23.57",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 4 glucose",
+      "calculated": 9.941096574961255,
+      "paper_display": "9.94",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 4 lactate",
+      "calculated": 18.77209275240011,
+      "paper_display": "18.77",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 4 aggregate",
+      "calculated": 22.33916917104605,
+      "paper_display": "22.34",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 4 all",
+      "calculated": 18.65540085578739,
+      "paper_display": "18.66",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 BIC 0",
+      "calculated": 1534.412380736149,
+      "paper_display": "1534.41",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 0 cells",
+      "calculated": 27.799782528665787,
+      "paper_display": "27.80",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 0 glucose",
+      "calculated": 10.580345678073366,
+      "paper_display": "10.58",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 0 lactate",
+      "calculated": 19.71809575936518,
+      "paper_display": "19.72",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 0 aggregate",
+      "calculated": 24.391476764305345,
+      "paper_display": "24.39",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S6 0 all",
+      "calculated": 20.62242518260242,
+      "paper_display": "20.62",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S7 Model6",
+      "calculated": 1459.8061763914664,
+      "paper_display": "1459.81",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S7 Model1",
+      "calculated": 1465.7705970211746,
+      "paper_display": "1465.77",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S7 Model3",
+      "calculated": 1465.8091551947928,
+      "paper_display": "1465.81",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S7 Model5",
+      "calculated": 1465.9946895656271,
+      "paper_display": "1465.99",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S7 Model7",
+      "calculated": 1470.5248251796413,
+      "paper_display": "1470.52",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S7 Model4",
+      "calculated": 1509.4436263572238,
+      "paper_display": "1509.44",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S7 Model0",
+      "calculated": 1534.4123807361455,
+      "paper_display": "1534.41",
+      "rounding_tolerance": 0.00500001
+    },
+    {
+      "item": "S8 C1",
+      "calculated": 25.285350245870532,
+      "paper_display": "25.3",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S8 C2",
+      "calculated": 12.036905858675015,
+      "paper_display": "12.0",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S8 C3",
+      "calculated": 18.39006677592291,
+      "paper_display": "18.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S8 C5",
+      "calculated": 18.386449080387198,
+      "paper_display": "18.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S8 C6",
+      "calculated": 13.118741285495023,
+      "paper_display": "13.1",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 1 cells",
+      "calculated": 35.987175668690824,
+      "paper_display": "36.0",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 1 glucose",
+      "calculated": 10.237572952328005,
+      "paper_display": "10.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 1 lactate",
+      "calculated": 21.489318992296035,
+      "paper_display": "21.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 1 aggregate",
+      "calculated": 27.51529900091884,
+      "paper_display": "27.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 1 all",
+      "calculated": 23.807341653558424,
+      "paper_display": "23.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 2 cells",
+      "calculated": 11.720344396801064,
+      "paper_display": "11.7",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 2 glucose",
+      "calculated": 7.458329623538622,
+      "paper_display": "7.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 2 lactate",
+      "calculated": 13.296479655567643,
+      "paper_display": "13.3",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 2 aggregate",
+      "calculated": 1.5124430039335073,
+      "paper_display": "1.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 2 all",
+      "calculated": 8.496899169960209,
+      "paper_display": "8.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 3 cells",
+      "calculated": 16.1850884476287,
+      "paper_display": "16.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 3 glucose",
+      "calculated": 10.769504321420424,
+      "paper_display": "10.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 3 lactate",
+      "calculated": 12.219043773504772,
+      "paper_display": "12.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 3 aggregate",
+      "calculated": 18.572117668679507,
+      "paper_display": "18.6",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 3 all",
+      "calculated": 14.436438552808351,
+      "paper_display": "14.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 5 cells",
+      "calculated": 21.71185219726218,
+      "paper_display": "21.7",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 5 glucose",
+      "calculated": 4.439173397249939,
+      "paper_display": "4.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 5 lactate",
+      "calculated": 21.88354927824176,
+      "paper_display": "21.9",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 5 aggregate",
+      "calculated": 31.090908906526103,
+      "paper_display": "31.1",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 5 all",
+      "calculated": 19.781370944819997,
+      "paper_display": "19.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 6 cells",
+      "calculated": 43.18741041674403,
+      "paper_display": "43.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 6 glucose",
+      "calculated": 24.381704626188807,
+      "paper_display": "24.4",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 6 lactate",
+      "calculated": 45.22929188025575,
+      "paper_display": "45.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 6 aggregate",
+      "calculated": 25.77506447522498,
+      "paper_display": "25.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 6 all",
+      "calculated": 34.643367849603386,
+      "paper_display": "34.6",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 mean cells",
+      "calculated": 25.75837422542536,
+      "paper_display": "25.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 mean glucose",
+      "calculated": 11.45725698414516,
+      "paper_display": "11.5",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 mean lactate",
+      "calculated": 22.82353671597319,
+      "paper_display": "22.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 mean aggregate",
+      "calculated": 20.89316661105659,
+      "paper_display": "20.9",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S9 mean all",
+      "calculated": 20.233083634150073,
+      "paper_display": "20.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S10 direct 585A1",
+      "calculated": 42.01669891210724,
+      "paper_display": "42.0",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S10 585A1 Recalibration 1",
+      "calculated": 8.918709713336757,
+      "paper_display": "8.9",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S10 585A1 Recalibration 2",
+      "calculated": 14.026706237913746,
+      "paper_display": "14.0",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S11 585A1 mu_max estimate",
+      "calculated": 0.09746285722410926,
+      "paper_display": "0.0975",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S11 585A1 mu_max lower",
+      "calculated": 0.01510073944641145,
+      "paper_display": "0.0151",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S11 585A1 mu_max upper",
+      "calculated": 0.13481175608760193,
+      "paper_display": "0.135",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S11 585A1 K_oG estimate",
+      "calculated": 1.7804634824390583e-06,
+      "paper_display": "1.78 \u00d7 10\u207b\u2076",
+      "rounding_tolerance": 5.00001e-09
+    },
+    {
+      "item": "S11 585A1 K_oG lower",
+      "calculated": 3.0724211784419554e-07,
+      "paper_display": "3.07 \u00d7 10\u207b\u2077",
+      "rounding_tolerance": 5.00001e-10
+    },
+    {
+      "item": "S11 585A1 K_oG upper",
+      "calculated": 4.612592627227871e-05,
+      "paper_display": "4.61 \u00d7 10\u207b\u2075",
+      "rounding_tolerance": 5.00001e-08
+    },
+    {
+      "item": "S11 585A1 alpha estimate",
+      "calculated": 82.0817735458851,
+      "paper_display": "82.1",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S11 585A1 alpha lower",
+      "calculated": 44.76931600583875,
+      "paper_display": "44.8",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S11 585A1 alpha upper",
+      "calculated": 489.0541613105642,
+      "paper_display": "489",
+      "rounding_tolerance": 0.500001
+    },
+    {
+      "item": "S10 direct SCTi003-A",
+      "calculated": 61.26118480934973,
+      "paper_display": "61.3",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S10 SCTi003-A Recalibration 1",
+      "calculated": 6.202394199824939,
+      "paper_display": "6.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S10 SCTi003-A Recalibration 2",
+      "calculated": 7.2040474652536,
+      "paper_display": "7.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S11 SCTi003-A mu_max estimate",
+      "calculated": 0.08510687398520526,
+      "paper_display": "0.0851",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S11 SCTi003-A mu_max lower",
+      "calculated": 0.055487799379276774,
+      "paper_display": "0.0555",
+      "rounding_tolerance": 5.00001e-05
+    },
+    {
+      "item": "S11 SCTi003-A mu_max upper",
+      "calculated": 0.10510747411813134,
+      "paper_display": "0.105",
+      "rounding_tolerance": 0.000500001
+    },
+    {
+      "item": "S11 SCTi003-A K_oG estimate",
+      "calculated": 1.6324368086825639e-06,
+      "paper_display": "1.63 \u00d7 10\u207b\u2076",
+      "rounding_tolerance": 5.00001e-09
+    },
+    {
+      "item": "S11 SCTi003-A K_oG lower",
+      "calculated": 5.938423394396545e-07,
+      "paper_display": "5.94 \u00d7 10\u207b\u2077",
+      "rounding_tolerance": 5.00001e-10
+    },
+    {
+      "item": "S11 SCTi003-A K_oG upper",
+      "calculated": 6.53470037125386e-06,
+      "paper_display": "6.53 \u00d7 10\u207b\u2076",
+      "rounding_tolerance": 5.00001e-09
+    },
+    {
+      "item": "S11 SCTi003-A alpha estimate",
+      "calculated": 66.0565297637205,
+      "paper_display": "66.1",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S11 SCTi003-A alpha lower",
+      "calculated": 40.19801329790252,
+      "paper_display": "40.2",
+      "rounding_tolerance": 0.050000100000000006
+    },
+    {
+      "item": "S11 SCTi003-A alpha upper",
+      "calculated": 105.02041789186049,
+      "paper_display": "105",
+      "rounding_tolerance": 0.500001
+    }
+  ]
+}

@@ -1,0 +1,975 @@
+{
+  "Table_1_v9_7": {
+    "caption": "TABLE 1 Model variants testing different functional forms for shear stress and energy dissipation rate (EDR) effects.  = shear half-saturation constant;  = EDR half-saturation constant;  = maximum detachment rate. k, number of estimated parameters; selection BIC, BIC on the 12 selection runs of the run with the lowest negative log-likelihood on the 19 calibration runs. There is no Model 2 (identical to Model 1; see Methods).\nFor Model 3, x = τ/Kτ. In Model 4, the shear factor affects viable-cell growth but the glucose, lactate and aggregate-growth terms use the growth rate before applying shear inhibition. For Model 7, Kτ,eff = Kτ[1 + γ ε/(ε + Kε)]. Model 2 is omitted because it is algebraically identical to Model 1. These are model hypotheses. The saturation and cooperative forms follow classical response functions [42,43], while the interaction term tests whether the two mechanical inputs act jointly.",
+    "tables": [
+      [
+        [
+          "Model",
+          "Name",
+          "fshear(τ)",
+          "fEDR(ε, Agg)",
+          "k",
+          "Selection BIC"
+        ],
+        [
+          "0",
+          "No hydrodynamic terms",
+          "1",
+          "0",
+          "9",
+          "1534.41"
+        ],
+        [
+          "1",
+          "Michaelis–Menten",
+          "Kτ/(τ + Kτ)",
+          "δmax ε Agg/(ε + Kε)",
+          "12",
+          "1465.00"
+        ],
+        [
+          "3",
+          "Exponential approximation",
+          "1/(1 + x + x²/2)",
+          "As Model 1",
+          "12",
+          "1465.04"
+        ],
+        [
+          "4",
+          "Growth-only shear",
+          "As Model 1",
+          "As Model 1",
+          "12",
+          "1506.40"
+        ],
+        [
+          "5",
+          "Hill (n = 2)",
+          "Kτ2/(τ² + Kτ2)",
+          "As Model 1",
+          "12",
+          "1465.16"
+        ],
+        [
+          "6",
+          "Growth-coupled EDR",
+          "As Model 1",
+          "µ ε Agg/Kε",
+          "11",
+          "1458.73"
+        ],
+        [
+          "7",
+          "Dual interaction",
+          "Kτ,eff/(τ + Kτ,eff)",
+          "As Model 1",
+          "13",
+          "1469.76"
+        ]
+      ]
+    ]
+  },
+  "Table_2_v9_7": {
+    "caption": "TABLE 2 Parameters of Model 6 estimated from the 19 calibration runs with Lagrangian P50 input. The 95% profile intervals for nine parameters are obtained with KLac and YGX fixed at their calibration estimates. This parameter set is used for subsequent predictions unless stated otherwise.",
+    "tables": [
+      [
+        [
+          "Parameter",
+          "Units",
+          "Estimate",
+          "95% confidence interval"
+        ],
+        [
+          "µmax",
+          "h⁻¹",
+          "0.107",
+          "0.0649 to 0.433"
+        ],
+        [
+          "Kd",
+          "h⁻¹",
+          "0.129",
+          "0.110 to 0.149"
+        ],
+        [
+          "KoG",
+          "mL/cell",
+          "2.97 × 10⁻⁶",
+          "2.71 × 10⁻⁶ to 3.27 × 10⁻⁶"
+        ],
+        [
+          "YGLac",
+          "mmol/mmol",
+          "0.425",
+          "0.389 to 0.462"
+        ],
+        [
+          "α",
+          "µm",
+          "57.6",
+          "52.0 to 63.7"
+        ],
+        [
+          "KAgg",
+          "µm³",
+          "5.22 × 10⁷",
+          "2.64 × 10⁷ to 2.79 × 10⁸"
+        ],
+        [
+          "Kτ",
+          "Pa",
+          "8.33 × 10⁻³",
+          "6.30 × 10⁻³ to 1.14 × 10⁻²"
+        ],
+        [
+          "Kε",
+          "m² s⁻³",
+          "9.85 × 10⁻³",
+          "4.91 × 10⁻³ to 9.78 × 10⁻²"
+        ],
+        [
+          "KG",
+          "mM",
+          "14.06",
+          "4.14 to 94.34"
+        ],
+        [
+          "KLac",
+          "mM",
+          "100",
+          "Fixed for these profiles (upper bound)"
+        ],
+        [
+          "YGX",
+          "µmol/cell",
+          "3.96 × 10⁻⁶",
+          "Fixed for these profiles"
+        ]
+      ]
+    ]
+  },
+  "Table_3_v9_7": {
+    "caption": "TABLE 3 Mean relative prediction error (MRPE, %) by state variable and data set, with the parameters of Table 2 for Model 6 and the corresponding fit for Model 0 (500 mL runs), both estimated from the 19 calibration runs. Only the calibration column uses data that were used for estimation. Experimental variability is the mean relative standard deviation of the replicate measurements (Eq. 19). ",
+    "tables": [
+      [
+        [
+          "State variable",
+          "Model 6 calibration",
+          "Model 6 selection",
+          "Model 0, 500 mL",
+          "Model 6, 500 mL",
+          "20% exchange",
+          "50% exchange"
+        ],
+        [
+          "Viable cells",
+          "16.6",
+          "22.3",
+          "37.0",
+          "24.6",
+          "21.5",
+          "20.6"
+        ],
+        [
+          "Glucose",
+          "7.5",
+          "9.8",
+          "14.9",
+          "11.4",
+          "12.5",
+          "14.2"
+        ],
+        [
+          "Lactate",
+          "19.4",
+          "16.9",
+          "22.4",
+          "13.8",
+          "18.8",
+          "11.3"
+        ],
+        [
+          "Aggregate size",
+          "13.3",
+          "20.7",
+          "21.3",
+          "14.1",
+          "18.6",
+          "15.1"
+        ],
+        [
+          "Overall MRPE",
+          "14.2",
+          "17.4",
+          "23.9",
+          "16.0",
+          "17.9",
+          "15.3"
+        ],
+        [
+          "Overall experimental variability",
+          "—",
+          "—",
+          "15.0",
+          "15.0",
+          "12.1",
+          "9.8"
+        ]
+      ]
+    ]
+  },
+  "Table_S10_v9_7": {
+    "caption": "TABLE S10 Overall MRPE (%) of Model 6 for each iPSC line, before recalibration and after Recalibrations 1 and 2. Recalibration errors use the same three runs used for parameter estimation.",
+    "tables": [
+      [
+        [
+          "Parameters refitted",
+          "585A1",
+          "SCTi003-A"
+        ],
+        [
+          "None (ESI-017 parameters)",
+          "42.0",
+          "61.3"
+        ],
+        [
+          "Recalibration 1: µmax, Kd, KoG, YGLac and α",
+          "8.9",
+          "6.2"
+        ],
+        [
+          "Recalibration 2: µmax, KoG and α",
+          "14.0",
+          "7.2"
+        ]
+      ]
+    ]
+  },
+  "Table_S11_v9_7": {
+    "caption": "TABLE S11 Model 6 parameters for ESI-017 (19 calibration runs) and Recalibration 2 for the iPSC lines (three runs per line). Brackets give the 95% profile intervals of the three refitted parameters. All other parameters remain fixed at their ESI-017 values.",
+    "tables": [
+      [
+        [
+          "Parameter (units)",
+          "ESI-017",
+          "585A1, 50 RPM",
+          "SCTi003-A, 40 RPM"
+        ],
+        [
+          "µmax (h⁻¹)",
+          "0.107",
+          "0.0975 [0.0151–0.135]",
+          "0.0851 [0.0555–0.105]"
+        ],
+        [
+          "KoG (mL/cell)",
+          "2.97 × 10⁻⁶",
+          "1.78 × 10⁻⁶ [3.07 × 10⁻⁷–4.61 × 10⁻⁵]",
+          "1.63 × 10⁻⁶ [5.94 × 10⁻⁷–6.53 × 10⁻⁶]"
+        ],
+        [
+          "α (µm)",
+          "57.6",
+          "82.1 [44.8–489]",
+          "66.1 [40.2–105]"
+        ],
+        [
+          "Kd (h⁻¹)",
+          "0.129",
+          "Fixed at ESI-017",
+          "Fixed at ESI-017"
+        ],
+        [
+          "YGLac (mmol/mmol)",
+          "0.425",
+          "Fixed at ESI-017",
+          "Fixed at ESI-017"
+        ],
+        [
+          "KG (mM)",
+          "14.06",
+          "Fixed at ESI-017",
+          "Fixed at ESI-017"
+        ],
+        [
+          "KAgg (µm³)",
+          "5.22 × 10⁷",
+          "Fixed at ESI-017",
+          "Fixed at ESI-017"
+        ],
+        [
+          "Kτ (Pa)",
+          "8.33 × 10⁻³",
+          "Fixed at ESI-017",
+          "Fixed at ESI-017"
+        ],
+        [
+          "Kε (m² s⁻³)",
+          "9.85 × 10⁻³",
+          "Fixed at ESI-017",
+          "Fixed at ESI-017"
+        ],
+        [
+          "KLac (mM)",
+          "100",
+          "Fixed at ESI-017",
+          "Fixed at ESI-017"
+        ],
+        [
+          "YGX (µmol/cell)",
+          "3.96 × 10⁻⁶",
+          "Fixed at ESI-017",
+          "Fixed at ESI-017"
+        ]
+      ]
+    ]
+  },
+  "Table_S1_v9_7": {
+    "caption": "TABLE S1 Experimental conditions, number of runs and use of each data set.",
+    "tables": [
+      [
+        [
+          "Condition / cohort",
+          "Initial density\n(cells/mL)",
+          "Agitation\n(RPM)",
+          "Volume\n(mL)",
+          "Days",
+          "Runs",
+          "Use"
+        ],
+        [
+          "1",
+          "2×104",
+          "40",
+          "100",
+          "6",
+          "4",
+          "Calibration: 2 runs\nSelection: 2 runs"
+        ],
+        [
+          "2",
+          "8×104",
+          "40",
+          "100",
+          "6",
+          "8",
+          "Calibration: 5 runs\nSelection: 3 runs"
+        ],
+        [
+          "3",
+          "15×104",
+          "40",
+          "100",
+          "6",
+          "6",
+          "Calibration: 4 runs\nSelection: 2 runs"
+        ],
+        [
+          "4",
+          "8×104",
+          "30",
+          "500",
+          "5",
+          "9",
+          "Validation (prediction without refitting)"
+        ],
+        [
+          "5",
+          "8×104",
+          "30",
+          "100",
+          "5",
+          "7",
+          "Calibration: 4 runs\nSelection: 3 runs"
+        ],
+        [
+          "6",
+          "8×104",
+          "60",
+          "100",
+          "6",
+          "6",
+          "Calibration: 4 runs\nSelection: 2 runs"
+        ],
+        [
+          "20% exchange",
+          "8×104",
+          "40",
+          "100",
+          "6",
+          "3",
+          "Validation"
+        ],
+        [
+          "50% exchange",
+          "8×104",
+          "40",
+          "100",
+          "6",
+          "3",
+          "Validation"
+        ],
+        [
+          "585A1 (iPSC)",
+          "8×104",
+          "50",
+          "100",
+          "4",
+          "3",
+          "Line-specific recalibration"
+        ],
+        [
+          "SCTi003-A (iPSC)",
+          "8×104",
+          "40",
+          "100",
+          "5",
+          "3",
+          "Line-specific recalibration"
+        ]
+      ]
+    ]
+  },
+  "Table_S2_v9_7": {
+    "caption": "TABLE S2 Mean, percentiles (P50, P75, P90) and maximum of the shear stress τ (Pa) for the four combinations of vessel and agitation rate. The Eulerian row gives the whole-vessel field. The aggregate rows give the empirical distribution accumulated along the trajectories of CFD-resolved aggregates of the stated size, traced through the steady-periodic flow over one wheel revolution.",
+    "tables": [
+      [
+        [
+          "Condition",
+          "Sampling",
+          "Mean",
+          "P50",
+          "P75",
+          "P90",
+          "Maximum"
+        ],
+        [
+          "30 RPM\n100 mL",
+          "Eulerian field",
+          "2.84 × 10−3",
+          "3.83 × 10−3",
+          "5.95 × 10−3",
+          "9.48 × 10−3",
+          "9.24 × 10−2"
+        ],
+        [
+          "30 RPM\n100 mL",
+          "Aggregate\n200 µm",
+          "3.11 × 10−3",
+          "2.59 × 10−3",
+          "3.62 × 10−3",
+          "5.45 × 10−3",
+          "6.16 × 10−2"
+        ],
+        [
+          "30 RPM\n100 mL",
+          "Aggregate\n400 µm",
+          "3.82 × 10−3",
+          "3.10 × 10−3",
+          "4.59 × 10−3",
+          "6.88 × 10−3",
+          "7.63 × 10−2"
+        ],
+        [
+          "40 RPM\n100 mL",
+          "Eulerian field",
+          "3.68 × 10−3",
+          "5.21 × 10−3",
+          "8.09 × 10−3",
+          "1.28 × 10−2",
+          "1.24 × 10−1"
+        ],
+        [
+          "40 RPM\n100 mL",
+          "Aggregate\n200 µm",
+          "2.90 × 10−3",
+          "2.55 × 10−3",
+          "3.62 × 10−3",
+          "5.04 × 10−3",
+          "7.98 × 10−2"
+        ],
+        [
+          "40 RPM\n100 mL",
+          "Aggregate\n400 µm",
+          "4.39 × 10−3",
+          "3.91 × 10−3",
+          "5.27 × 10−3",
+          "6.98 × 10−3",
+          "7.93 × 10−2"
+        ],
+        [
+          "60 RPM\n100 mL",
+          "Eulerian field",
+          "5.45 × 10−3",
+          "8.51 × 10−3",
+          "1.32 × 10−2",
+          "2.10 × 10−2",
+          "1.90 × 10−1"
+        ],
+        [
+          "60 RPM\n100 mL",
+          "Aggregate\n200 µm",
+          "5.18 × 10−3",
+          "4.42 × 10−3",
+          "6.47 × 10−3",
+          "9.23 × 10−3",
+          "1.88 × 10−1"
+        ],
+        [
+          "60 RPM\n100 mL",
+          "Aggregate\n400 µm",
+          "6.76 × 10−3",
+          "5.81 × 10−3",
+          "8.35 × 10−3",
+          "1.17 × 10−2",
+          "1.51 × 10−1"
+        ],
+        [
+          "30 RPM\n500 mL",
+          "Eulerian field",
+          "2.71 × 10−3",
+          "5.15 × 10−3",
+          "8.67 × 10−3",
+          "1.51 × 10−2",
+          "3.23 × 10−1"
+        ],
+        [
+          "30 RPM\n500 mL",
+          "Aggregate\n200 µm",
+          "2.96 × 10−3",
+          "2.24 × 10−3",
+          "3.61 × 10−3",
+          "5.56 × 10−3",
+          "1.31 × 10−1"
+        ],
+        [
+          "30 RPM\n500 mL",
+          "Aggregate\n400 µm",
+          "3.68 × 10−3",
+          "2.94 × 10−3",
+          "4.48 × 10−3",
+          "6.83 × 10−3",
+          "1.05 × 10−1"
+        ]
+      ]
+    ]
+  },
+  "Table_S3_v9_7": {
+    "caption": "TABLE S3 Mean, percentiles and maximum of the energy dissipation rate ε (m2/s3) for the four combinations of vessel and agitation rate, sampled as in Table S2.",
+    "tables": [
+      [
+        [
+          "Condition",
+          "Sampling",
+          "Mean",
+          "P50",
+          "P75",
+          "P90",
+          "Maximum"
+        ],
+        [
+          "30 RPM\n100 mL",
+          "Eulerian field",
+          "1.74 × 10−4",
+          "1.76 × 10−4",
+          "3.21 × 10−4",
+          "5.70 × 10−4",
+          "7.68 × 10−3"
+        ],
+        [
+          "30 RPM\n100 mL",
+          "Aggregate\n200 µm",
+          "1.71 × 10−4",
+          "1.07 × 10−4",
+          "1.90 × 10−4",
+          "3.83 × 10−4",
+          "5.87 × 10−3"
+        ],
+        [
+          "30 RPM\n100 mL",
+          "Aggregate\n400 µm",
+          "2.07 × 10−4",
+          "1.31 × 10−4",
+          "2.27 × 10−4",
+          "4.71 × 10−4",
+          "4.38 × 10−3"
+        ],
+        [
+          "40 RPM\n100 mL",
+          "Eulerian field",
+          "3.35 × 10−4",
+          "3.51 × 10−4",
+          "6.55 × 10−4",
+          "1.20 × 10−3",
+          "1.45 × 10−2"
+        ],
+        [
+          "40 RPM\n100 mL",
+          "Aggregate\n200 µm",
+          "1.90 × 10−4",
+          "1.43 × 10−4",
+          "2.51 × 10−4",
+          "3.60 × 10−4",
+          "3.90 × 10−3"
+        ],
+        [
+          "40 RPM\n100 mL",
+          "Aggregate\n400 µm",
+          "3.01 × 10−4",
+          "2.43 × 10−4",
+          "3.39 × 10−4",
+          "4.94 × 10−4",
+          "4.97 × 10−3"
+        ],
+        [
+          "60 RPM\n100 mL",
+          "Eulerian field",
+          "9.30 × 10−4",
+          "9.90 × 10−4",
+          "2.02 × 10−3",
+          "3.78 × 10−3",
+          "6.43 × 10−2"
+        ],
+        [
+          "60 RPM\n100 mL",
+          "Aggregate\n200 µm",
+          "7.20 × 10−4",
+          "5.03 × 10−4",
+          "7.88 × 10−4",
+          "1.51 × 10−3",
+          "3.39 × 10−2"
+        ],
+        [
+          "60 RPM\n100 mL",
+          "Aggregate\n400 µm",
+          "9.69 × 10−4",
+          "5.89 × 10−4",
+          "1.04 × 10−3",
+          "2.34 × 10−3",
+          "3.43 × 10−2"
+        ],
+        [
+          "30 RPM\n500 mL",
+          "Eulerian field",
+          "3.00 × 10−4",
+          "4.02 × 10−4",
+          "9.06 × 10−4",
+          "1.81 × 10−3",
+          "2.96 × 10−2"
+        ],
+        [
+          "30 RPM\n500 mL",
+          "Aggregate\n200 µm",
+          "2.77 × 10−4",
+          "1.44 × 10−4",
+          "2.93 × 10−4",
+          "6.90 × 10−4",
+          "2.03 × 10−2"
+        ],
+        [
+          "30 RPM\n500 mL",
+          "Aggregate\n400 µm",
+          "3.44 × 10−4",
+          "1.88 × 10−4",
+          "3.86 × 10−4",
+          "8.40 × 10−4",
+          "2.00 × 10−2"
+        ]
+      ]
+    ]
+  },
+  "Table_S4_v9_7": {
+    "caption": "TABLE S4 Mean aggregate size at day 5 (mean ± SD over runs), by condition. Condition 5 comprised seven runs, but one was harvested on day 4 because aggregates pooled at the vessel bottom, leaving six runs at day 5.",
+    "tables": [
+      [
+        [
+          "Cond.",
+          "Vessel, agitation",
+          "Aggregate size at day 5 (µm)",
+          "Runs"
+        ],
+        [
+          "5",
+          "100 mL, 30 RPM",
+          "330.8 ± 22.4",
+          "6"
+        ],
+        [
+          "2",
+          "100 mL, 40 RPM",
+          "253.1 ± 15.9",
+          "8"
+        ],
+        [
+          "6",
+          "100 mL, 60 RPM",
+          "205.4 ± 10.2",
+          "6"
+        ],
+        [
+          "4",
+          "500 mL, 30 RPM",
+          "261.8 ± 38.5",
+          "9"
+        ]
+      ]
+    ]
+  },
+  "Table_S5_v9_7": {
+    "caption": "TABLE S5 Volumetric oxygen transfer coefficient and oxygen Damköhler number at the peak viable cell density of each condition, with qO2 = 17.7 amol cell−1 s−1. Values at 100 mL from the Neto et al. correlation at 37 °C; at 500 mL, scaling estimate, with the range used in the sensitivity analysis in parentheses. Xpeak is the mean viable cell density of the runs of each condition on the day of peak density. With the highest single-run density instead, DaO2 is at most 0.33 (Condition 3).",
+    "tables": [
+      [
+        [
+          "Condition",
+          "Vessel, agitation, seeding",
+          "Xpeak (10⁶ cells/mL)",
+          "kLa (h−1)",
+          "DaO2"
+        ],
+        [
+          "1",
+          "100 mL, 40 RPM, 2×104 cells/mL",
+          "0.55",
+          "1.81",
+          "0.092"
+        ],
+        [
+          "2",
+          "100 mL, 40 RPM, 8×104 cells/mL",
+          "1.33",
+          "1.81",
+          "0.223"
+        ],
+        [
+          "3",
+          "100 mL, 40 RPM, 15×104 cells/mL",
+          "1.67",
+          "1.81",
+          "0.281"
+        ],
+        [
+          "4",
+          "500 mL, 30 RPM, 8×104 cells/mL",
+          "1.03",
+          "1.18 (0.44 to 9.0)",
+          "0.265 (0.03 to 0.71)"
+        ],
+        [
+          "5",
+          "100 mL, 30 RPM, 8×104 cells/mL",
+          "1.06",
+          "1.54",
+          "0.208"
+        ],
+        [
+          "6",
+          "100 mL, 60 RPM, 8×104 cells/mL",
+          "1.05",
+          "2.26",
+          "0.141"
+        ]
+      ]
+    ]
+  },
+  "Table_S6_v9_7": {
+    "caption": "TABLE S6 Errors (MRPE, %) of the candidate models on the 12 selection runs, with the parameters estimated from the 19 calibration runs (Lagrangian P50 exposures). k, number of estimated parameters.",
+    "tables": [
+      [
+        [
+          "Model",
+          "k",
+          "Selection BIC",
+          "Cells",
+          "Glucose",
+          "Lactate",
+          "Aggregate size",
+          "Overall"
+        ],
+        [
+          "6",
+          "11",
+          "1458.73",
+          "22.26",
+          "9.78",
+          "16.90",
+          "20.71",
+          "17.41"
+        ],
+        [
+          "1",
+          "12",
+          "1465.00",
+          "22.29",
+          "9.81",
+          "16.90",
+          "20.90",
+          "17.48"
+        ],
+        [
+          "3",
+          "12",
+          "1465.04",
+          "22.28",
+          "9.82",
+          "16.91",
+          "20.90",
+          "17.48"
+        ],
+        [
+          "5",
+          "12",
+          "1465.16",
+          "22.25",
+          "9.83",
+          "16.92",
+          "20.91",
+          "17.48"
+        ],
+        [
+          "7",
+          "13",
+          "1469.76",
+          "22.29",
+          "9.81",
+          "16.90",
+          "20.90",
+          "17.48"
+        ],
+        [
+          "4",
+          "12",
+          "1506.40",
+          "23.57",
+          "9.94",
+          "18.77",
+          "22.34",
+          "18.66"
+        ],
+        [
+          "0",
+          "9",
+          "1534.41",
+          "27.80",
+          "10.58",
+          "19.72",
+          "24.39",
+          "20.62"
+        ]
+      ]
+    ]
+  },
+  "Table_S7_v9_7": {
+    "caption": "TABLE S7 Selection BIC of the candidate models with the Lagrangian P75 exposures, all fitted to the 19 calibration runs and evaluated on the 12 selection runs.",
+    "tables": [
+      [
+        [
+          "Model",
+          "6",
+          "1",
+          "3",
+          "5",
+          "7",
+          "4",
+          "0"
+        ],
+        [
+          "Selection BIC",
+          "1459.81",
+          "1465.77",
+          "1465.81",
+          "1465.99",
+          "1470.52",
+          "1509.44",
+          "1534.41"
+        ]
+      ]
+    ]
+  },
+  "Table_S8_v9_7": {
+    "caption": "TABLE S8 Overall MRPE (%) of Model 6 on the selection runs of each 100 mL condition, with the parameters of Table 2 of the main text.",
+    "tables": [
+      [
+        [
+          "Condition",
+          "1 (2×104, 40 RPM)",
+          "2 (8×104, 40 RPM)",
+          "3 (15×104, 40 RPM)",
+          "5 (8×104, 30 RPM)",
+          "6 (8×104, 60 RPM)"
+        ],
+        [
+          "Selection MRPE (%)",
+          "25.3",
+          "12.0",
+          "18.4",
+          "18.4",
+          "13.1"
+        ]
+      ]
+    ]
+  },
+  "Table_S9_v9_7": {
+    "caption": "TABLE S9 Leave-one-condition-out cross-validation: MRPE (%) of Model 6 for each omitted 100 mL condition, predicted with a calibration on all runs of the other four conditions. The last row is the mean over the five folds.",
+    "tables": [
+      [
+        [
+          "Omitted condition",
+          "Cells",
+          "Glucose",
+          "Lactate",
+          "Aggregate size",
+          "Overall"
+        ],
+        [
+          "1 (2×104 cells/mL, 40 RPM)",
+          "36.0",
+          "10.2",
+          "21.5",
+          "27.5",
+          "23.8"
+        ],
+        [
+          "2 (8×104 cells/mL, 40 RPM)",
+          "11.7",
+          "7.5",
+          "13.3",
+          "1.5",
+          "8.5"
+        ],
+        [
+          "3 (15×104 cells/mL, 40 RPM)",
+          "16.2",
+          "10.8",
+          "12.2",
+          "18.6",
+          "14.4"
+        ],
+        [
+          "5 (8×104 cells/mL, 30 RPM)",
+          "21.7",
+          "4.4",
+          "21.9",
+          "31.1",
+          "19.8"
+        ],
+        [
+          "6 (8×104 cells/mL, 60 RPM)",
+          "43.2",
+          "24.4",
+          "45.2",
+          "25.8",
+          "34.6"
+        ],
+        [
+          "Mean of five folds",
+          "25.8",
+          "11.5",
+          "22.8",
+          "20.9",
+          "20.2"
+        ]
+      ]
+    ]
+  }
+}

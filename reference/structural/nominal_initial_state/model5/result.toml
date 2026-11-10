@@ -1,0 +1,8 @@
+rank = 11
+parameters = 11
+scope = "Exact finite-field parameter sensitivity rank, fixed nominal initial states, pooled 100-mL lower exposure segment. Full rank certifies generic local identifiability at these known initial states; rank deficiency alone is inconclusive. Not practical or global identifiability."
+model = 5
+seed = 20261009
+prime = 2147483647
+precision = 16
+full_rank = true

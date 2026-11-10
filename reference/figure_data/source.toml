@@ -1,0 +1,4 @@
+meaning = "Reproduction run; not completed R2 analysis"
+source_run = "reproduction_calibration"
+selected_model = 5
+initial_starts_per_model = 6

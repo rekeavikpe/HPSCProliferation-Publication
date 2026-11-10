@@ -1,0 +1,13 @@
+model,design,segment,parameter,classification,mode
+4,pooled,0,K_Agg,true,local
+4,pooled,0,K_G,true,local
+4,pooled,0,K_Lac,true,local
+4,pooled,0,K_d,true,local
+4,pooled,0,K_eps,true,local
+4,pooled,0,K_oG,true,local
+4,pooled,0,K_tau,true,local
+4,pooled,0,Y_GLac,true,local
+4,pooled,0,Y_GX,true,local
+4,pooled,0,alpha,true,local
+4,pooled,0,delta_max,true,local
+4,pooled,0,mu_max,true,local

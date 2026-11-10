@@ -1,0 +1,2 @@
+dataset,cell_line,field,archived_value,corrected_value,basis,changes_numeric_inputs
+cell_line_measurements.csv,585A1,dextran_sulfate,absent,present,Author confirmation and final accepted manuscript,false

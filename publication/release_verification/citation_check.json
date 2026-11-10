@@ -1,0 +1,11 @@
+{
+  "cff_schema": "https://citation-file-format.github.io/1.2.0/schema.json",
+  "cff_validation": "PASS",
+  "paper_status": "accepted; confirmed by author",
+  "paper_title_author_order_source": "final submitted title-page metadata",
+  "journal_doi": null,
+  "zenodo_doi": "10.5281/zenodo.24117723",
+  "doi_status_confirmed_by_user": "Author supplied the reserved Zenodo DOI on 2026-11-10; registration follows publication of the draft.",
+  "preprint_doi_not_used_as_journal_doi": "10.64898/2026.04.22.720266",
+  "code_results_change": false
+}

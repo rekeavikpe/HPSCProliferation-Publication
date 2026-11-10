@@ -1,0 +1,14 @@
+parameter,normalized_log_value
+K_Agg,0.5
+K_d,0.5
+K_G,0.5
+K_Lac,0.5
+K_oG,0.5
+Y_GLac,0.5
+Y_GX,0.5
+alpha,0.5
+mu_max,0.5
+K_tau,0.5
+delta_max,0.5
+K_eps,0.5
+gamma,0.5

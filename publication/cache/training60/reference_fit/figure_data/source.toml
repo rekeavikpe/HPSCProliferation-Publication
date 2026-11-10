@@ -1,0 +1,4 @@
+meaning = "Saved calibration outputs; consult source convergence and analysis metadata"
+source_run = "reference_fit"
+selected_model = 5
+initial_starts_per_model = 100

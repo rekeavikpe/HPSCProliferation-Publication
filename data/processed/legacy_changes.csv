@@ -1,0 +1,277 @@
+csv_row,series_id,day,state,previous_value,imported_value,change,source_sheet,source_cell
+2,ESI017_C1_C,1,aggregate,67.13,67.12826,restore_source_precision_or_transcription,Varied by Cell Density,C43
+3,ESI017_C1_C,2,aggregate,107.18,107.1771,restore_source_precision_or_transcription,Varied by Cell Density,C44
+4,ESI017_C1_C,3,aggregate,153.02,153.0233,restore_source_precision_or_transcription,Varied by Cell Density,C45
+5,ESI017_C1_C,4,aggregate,180.64,180.6364,restore_source_precision_or_transcription,Varied by Cell Density,C46
+6,ESI017_C1_C,5,aggregate,221.66,221.664,restore_source_precision_or_transcription,Varied by Cell Density,C47
+7,ESI017_C1_C,6,aggregate,272.09,272.0851,restore_source_precision_or_transcription,Varied by Cell Density,C48
+8,ESI017_C1_D,1,aggregate,66.57,66.56711,restore_source_precision_or_transcription,Varied by Cell Density,D43
+9,ESI017_C1_D,2,aggregate,106.95,106.9467,restore_source_precision_or_transcription,Varied by Cell Density,D44
+10,ESI017_C1_D,3,aggregate,166.7,166.6971,restore_source_precision_or_transcription,Varied by Cell Density,D45
+11,ESI017_C1_D,4,aggregate,209.29,209.2921,restore_source_precision_or_transcription,Varied by Cell Density,D46
+12,ESI017_C1_D,5,aggregate,278.53,278.5346,restore_source_precision_or_transcription,Varied by Cell Density,D47
+13,ESI017_C1_D,6,aggregate,287.35,287.3468,restore_source_precision_or_transcription,Varied by Cell Density,D48
+14,ESI017_C1_E,1,aggregate,55.78,55.7817,restore_source_precision_or_transcription,Varied by Cell Density,E43
+15,ESI017_C1_E,2,aggregate,92.21,92.209,restore_source_precision_or_transcription,Varied by Cell Density,E44
+16,ESI017_C1_E,3,aggregate,137.22,137.2238,restore_source_precision_or_transcription,Varied by Cell Density,E45
+17,ESI017_C1_E,4,aggregate,186.42,186.4187,restore_source_precision_or_transcription,Varied by Cell Density,E46
+18,ESI017_C1_E,5,aggregate,243.27,243.2702,restore_source_precision_or_transcription,Varied by Cell Density,E47
+19,ESI017_C1_E,6,aggregate,287.85,287.8477,restore_source_precision_or_transcription,Varied by Cell Density,E48
+20,ESI017_C1_F,1,aggregate,42.37,42.3690341,restore_source_precision_or_transcription,Varied by Cell Density,F43
+21,ESI017_C1_F,2,aggregate,77.62,77.6240439,restore_source_precision_or_transcription,Varied by Cell Density,F44
+22,ESI017_C1_F,3,aggregate,115.66,115.658026,restore_source_precision_or_transcription,Varied by Cell Density,F45
+23,ESI017_C1_F,4,aggregate,162.76,162.762488,restore_source_precision_or_transcription,Varied by Cell Density,F46
+24,ESI017_C1_F,5,aggregate,219.09,219.085486,restore_source_precision_or_transcription,Varied by Cell Density,F47
+25,ESI017_C1_F,6,aggregate,270.22,270.217142,restore_source_precision_or_transcription,Varied by Cell Density,F48
+26,ESI017_C2_L,1,aggregate,107.87,107.867218,restore_source_precision_or_transcription,Varied by RPM,L43
+27,ESI017_C2_L,2,aggregate,135.12,135.115713,restore_source_precision_or_transcription,Varied by RPM,L44
+28,ESI017_C2_L,3,aggregate,182.38,182.381477,restore_source_precision_or_transcription,Varied by RPM,L45
+29,ESI017_C2_L,4,aggregate,219.87,219.866304,restore_source_precision_or_transcription,Varied by RPM,L46
+30,ESI017_C2_L,5,aggregate,260.07,260.073444,restore_source_precision_or_transcription,Varied by RPM,L47
+31,ESI017_C2_L,6,aggregate,292.1,292.099354,restore_source_precision_or_transcription,Varied by RPM,L48
+32,ESI017_C2_M,1,aggregate,64.89,64.8851852,restore_source_precision_or_transcription,Varied by RPM,M43
+33,ESI017_C2_M,2,aggregate,107.55,107.553349,restore_source_precision_or_transcription,Varied by RPM,M44
+34,ESI017_C2_M,3,aggregate,151.73,151.731978,restore_source_precision_or_transcription,Varied by RPM,M45
+35,ESI017_C2_M,4,aggregate,211.18,211.175335,restore_source_precision_or_transcription,Varied by RPM,M46
+36,ESI017_C2_M,5,aggregate,230.17,230.166304,restore_source_precision_or_transcription,Varied by RPM,M47
+37,ESI017_C2_M,6,aggregate,253.33,253.326824,restore_source_precision_or_transcription,Varied by RPM,M48
+38,ESI017_C2_N,1,aggregate,88.66,88.6612258,restore_source_precision_or_transcription,Varied by RPM,N43
+39,ESI017_C2_N,2,aggregate,136.57,136.571095,restore_source_precision_or_transcription,Varied by RPM,N44
+40,ESI017_C2_N,3,aggregate,186.7,186.698972,restore_source_precision_or_transcription,Varied by RPM,N45
+41,ESI017_C2_N,4,aggregate,231.35,231.348448,restore_source_precision_or_transcription,Varied by RPM,N46
+42,ESI017_C2_N,5,aggregate,243.45,243.452277,restore_source_precision_or_transcription,Varied by RPM,N47
+43,ESI017_C2_N,6,cells,1411347.518,1411347.5177304966,restore_source_precision_or_transcription,Varied by RPM,N10
+43,ESI017_C2_N,6,aggregate,277.02,277.022427,restore_source_precision_or_transcription,Varied by RPM,N48
+44,ESI017_C2_O,1,aggregate,82.07,82.0740426,restore_source_precision_or_transcription,Varied by RPM,O43
+45,ESI017_C2_O,2,aggregate,124.91,124.91398,restore_source_precision_or_transcription,Varied by RPM,O44
+46,ESI017_C2_O,3,aggregate,172.76,172.756347,restore_source_precision_or_transcription,Varied by RPM,O45
+47,ESI017_C2_O,4,aggregate,208.65,208.652151,restore_source_precision_or_transcription,Varied by RPM,O46
+48,ESI017_C2_O,5,aggregate,247.19,247.19067,restore_source_precision_or_transcription,Varied by RPM,O47
+49,ESI017_C2_O,6,aggregate,269.47,269.470954,restore_source_precision_or_transcription,Varied by RPM,O48
+50,ESI017_C2_P,1,aggregate,80.55,80.5462884,restore_source_precision_or_transcription,Varied by RPM,P43
+51,ESI017_C2_P,2,aggregate,127.89,127.888132,restore_source_precision_or_transcription,Varied by RPM,P44
+52,ESI017_C2_P,3,aggregate,186.57,186.573554,restore_source_precision_or_transcription,Varied by RPM,P45
+53,ESI017_C2_P,4,aggregate,225.67,225.672687,restore_source_precision_or_transcription,Varied by RPM,P46
+54,ESI017_C2_P,5,aggregate,275.1,275.104744,restore_source_precision_or_transcription,Varied by RPM,P47
+55,ESI017_C2_P,6,aggregate,276.81,276.8101654846336,restore_source_precision_or_transcription,Varied by RPM,P48
+56,ESI017_C2_Q,1,aggregate,76.15,76.1541056,restore_source_precision_or_transcription,Varied by RPM,Q43
+57,ESI017_C2_Q,2,aggregate,131.37,131.374043,restore_source_precision_or_transcription,Varied by RPM,Q44
+58,ESI017_C2_Q,3,aggregate,186.03,186.031158,restore_source_precision_or_transcription,Varied by RPM,Q45
+59,ESI017_C2_Q,4,aggregate,228.01,228.009567,restore_source_precision_or_transcription,Varied by RPM,Q46
+60,ESI017_C2_Q,5,aggregate,274.94,274.939668,restore_source_precision_or_transcription,Varied by RPM,Q47
+61,ESI017_C2_Q,6,aggregate,273.33,273.332955,restore_source_precision_or_transcription,Varied by RPM,Q48
+62,ESI017_C2_R,1,aggregate,63.55,63.5500079,restore_source_precision_or_transcription,Varied by RPM,R43
+63,ESI017_C2_R,2,aggregate,123.38,123.383215,restore_source_precision_or_transcription,Varied by RPM,R44
+64,ESI017_C2_R,3,aggregate,158.03,158.032025,restore_source_precision_or_transcription,Varied by RPM,R45
+65,ESI017_C2_R,4,aggregate,205.07,205.069708,restore_source_precision_or_transcription,Varied by RPM,R46
+66,ESI017_C2_R,5,aggregate,242.56,242.563373,restore_source_precision_or_transcription,Varied by RPM,R47
+67,ESI017_C2_R,6,aggregate,272.63,272.629391,restore_source_precision_or_transcription,Varied by RPM,R48
+68,ESI017_C2_S,1,aggregate,67.93,67.9272971,restore_source_precision_or_transcription,Varied by RPM,S43
+69,ESI017_C2_S,2,aggregate,133.99,133.991332,restore_source_precision_or_transcription,Varied by RPM,S44
+70,ESI017_C2_S,3,aggregate,171.48,171.479448,restore_source_precision_or_transcription,Varied by RPM,S45
+71,ESI017_C2_S,4,aggregate,215.71,215.712987,restore_source_precision_or_transcription,Varied by RPM,S46
+72,ESI017_C2_S,5,aggregate,251.22,251.222191,restore_source_precision_or_transcription,Varied by RPM,S47
+73,ESI017_C2_S,6,aggregate,275.23,275.232451,restore_source_precision_or_transcription,Varied by RPM,S48
+74,ESI017_C3_S,1,aggregate,113.79,113.7913,restore_source_precision_or_transcription,Varied by Cell Density,S43
+75,ESI017_C3_S,2,aggregate,168.44,168.4408,restore_source_precision_or_transcription,Varied by Cell Density,S44
+76,ESI017_C3_S,3,aggregate,211.24,211.2407,restore_source_precision_or_transcription,Varied by Cell Density,S45
+77,ESI017_C3_S,4,aggregate,271.15,271.1504,restore_source_precision_or_transcription,Varied by Cell Density,S46
+78,ESI017_C3_S,5,glucose,5.6,,remove_unmeasured_replacement,Varied by Cell Density,S29
+78,ESI017_C3_S,5,lactate,15.21,,remove_unmeasured_replacement,Varied by Cell Density,S39
+78,ESI017_C3_S,5,aggregate,286.61,286.6149,restore_source_precision_or_transcription,Varied by Cell Density,S47
+79,ESI017_C3_S,6,aggregate,355.53,355.5279,restore_source_precision_or_transcription,Varied by Cell Density,S48
+80,ESI017_C3_T,1,aggregate,112.92,112.9197,restore_source_precision_or_transcription,Varied by Cell Density,T43
+81,ESI017_C3_T,2,aggregate,156.84,156.8421,restore_source_precision_or_transcription,Varied by Cell Density,T44
+82,ESI017_C3_T,3,aggregate,233.48,233.4787,restore_source_precision_or_transcription,Varied by Cell Density,T45
+83,ESI017_C3_T,4,aggregate,301.41,301.4146,restore_source_precision_or_transcription,Varied by Cell Density,T46
+84,ESI017_C3_T,5,aggregate,299.9,299.9044,restore_source_precision_or_transcription,Varied by Cell Density,T47
+85,ESI017_C3_T,6,aggregate,320.06,320.0555,restore_source_precision_or_transcription,Varied by Cell Density,T48
+86,ESI017_C3_U,1,aggregate,79.73,79.73453,restore_source_precision_or_transcription,Varied by Cell Density,U43
+87,ESI017_C3_U,2,aggregate,131.11,131.1112,restore_source_precision_or_transcription,Varied by Cell Density,U44
+88,ESI017_C3_U,3,aggregate,188.44,188.4399,restore_source_precision_or_transcription,Varied by Cell Density,U45
+89,ESI017_C3_U,4,aggregate,280.47,280.4673,restore_source_precision_or_transcription,Varied by Cell Density,U46
+90,ESI017_C3_U,5,aggregate,266.21,266.2129,restore_source_precision_or_transcription,Varied by Cell Density,U47
+91,ESI017_C3_U,6,aggregate,294.93,294.9276,restore_source_precision_or_transcription,Varied by Cell Density,U48
+92,ESI017_C3_V,1,aggregate,96.89,96.8939489,restore_source_precision_or_transcription,Varied by Cell Density,V43
+93,ESI017_C3_V,2,aggregate,146.98,146.978177,restore_source_precision_or_transcription,Varied by Cell Density,V44
+94,ESI017_C3_V,3,aggregate,193.38,193.378353,restore_source_precision_or_transcription,Varied by Cell Density,V45
+95,ESI017_C3_V,4,aggregate,278.82,278.820437,restore_source_precision_or_transcription,Varied by Cell Density,V46
+96,ESI017_C3_V,5,aggregate,288.09,288.088952,restore_source_precision_or_transcription,Varied by Cell Density,V47
+97,ESI017_C3_V,6,aggregate,310.85,310.847511,restore_source_precision_or_transcription,Varied by Cell Density,V48
+98,ESI017_C3_W,1,aggregate,56.86,56.863721923441936,restore_source_precision_or_transcription,Varied by Cell Density,W43
+99,ESI017_C3_W,2,aggregate,144.36,144.3554753074371,restore_source_precision_or_transcription,Varied by Cell Density,W44
+100,ESI017_C3_W,3,aggregate,129.49,129.49990240093697,restore_source_precision_or_transcription,Varied by Cell Density,W45
+101,ESI017_C3_W,4,aggregate,168.42,168.42332617606874,restore_source_precision_or_transcription,Varied by Cell Density,W46
+102,ESI017_C3_W,5,aggregate,231.43,231.43392543431588,restore_source_precision_or_transcription,Varied by Cell Density,W47
+103,ESI017_C3_W,6,aggregate,291.08,291.083447198907,restore_source_precision_or_transcription,Varied by Cell Density,W48
+104,ESI017_C3_X,1,aggregate,93.93,93.93496,restore_source_precision_or_transcription,Varied by Cell Density,X43
+105,ESI017_C3_X,2,aggregate,150.26,150.2634,restore_source_precision_or_transcription,Varied by Cell Density,X44
+106,ESI017_C3_X,3,aggregate,195.51,195.514757,restore_source_precision_or_transcription,Varied by Cell Density,X45
+107,ESI017_C3_X,4,aggregate,255.75,255.754499,restore_source_precision_or_transcription,Varied by Cell Density,X46
+108,ESI017_C3_X,5,aggregate,270.64,270.638942,restore_source_precision_or_transcription,Varied by Cell Density,X47
+109,ESI017_C3_X,6,aggregate,295.67,295.665626,restore_source_precision_or_transcription,Varied by Cell Density,X48
+110,ESI017_C4_C,1,glucose,12.7,12.7381,restore_source_precision_or_transcription,500mL Reactor,C25
+110,ESI017_C4_C,1,aggregate,109.75,109.754011,restore_source_precision_or_transcription,500mL Reactor,C42
+111,ESI017_C4_C,2,glucose,9.5,9.5229,restore_source_precision_or_transcription,500mL Reactor,C26
+111,ESI017_C4_C,2,aggregate,154.29,154.285469,restore_source_precision_or_transcription,500mL Reactor,C43
+112,ESI017_C4_C,3,glucose,7.2,7.246,restore_source_precision_or_transcription,500mL Reactor,C27
+112,ESI017_C4_C,3,aggregate,197.37,197.370449,restore_source_precision_or_transcription,500mL Reactor,C44
+113,ESI017_C4_C,4,glucose,7.5,7.5258,restore_source_precision_or_transcription,500mL Reactor,C28
+113,ESI017_C4_C,4,aggregate,214.94,214.9371,restore_source_precision_or_transcription,500mL Reactor,C45
+114,ESI017_C4_C,5,cells,1130000.0,1129333.3333333335,restore_source_precision_or_transcription,500mL Reactor,C9
+114,ESI017_C4_C,5,glucose,6.7,6.6644,restore_source_precision_or_transcription,500mL Reactor,C29
+114,ESI017_C4_C,5,aggregate,230.06,230.062679,restore_source_precision_or_transcription,500mL Reactor,C46
+115,ESI017_C4_D,1,glucose,12.3,12.3376,restore_source_precision_or_transcription,500mL Reactor,D25
+115,ESI017_C4_D,1,aggregate,111.88,111.880993,restore_source_precision_or_transcription,500mL Reactor,D42
+116,ESI017_C4_D,2,glucose,8.8,8.8042,restore_source_precision_or_transcription,500mL Reactor,D26
+116,ESI017_C4_D,2,aggregate,158.96,158.964807,restore_source_precision_or_transcription,500mL Reactor,D43
+117,ESI017_C4_D,3,glucose,7.2,7.1527,restore_source_precision_or_transcription,500mL Reactor,D27
+117,ESI017_C4_D,3,aggregate,200.94,200.940536,restore_source_precision_or_transcription,500mL Reactor,D44
+118,ESI017_C4_D,4,glucose,6.9,6.9387,restore_source_precision_or_transcription,500mL Reactor,D28
+118,ESI017_C4_D,4,aggregate,273.5,273.497074,restore_source_precision_or_transcription,500mL Reactor,D45
+119,ESI017_C4_D,5,glucose,6.8,6.8153,restore_source_precision_or_transcription,500mL Reactor,D29
+119,ESI017_C4_D,5,aggregate,301.97,301.965452,restore_source_precision_or_transcription,500mL Reactor,D46
+120,ESI017_C4_E,1,glucose,13.7,13.6708,restore_source_precision_or_transcription,500mL Reactor,E25
+120,ESI017_C4_E,1,aggregate,83.7,83.6986335,restore_source_precision_or_transcription,500mL Reactor,E42
+121,ESI017_C4_E,2,glucose,11.3,11.3198,restore_source_precision_or_transcription,500mL Reactor,E26
+121,ESI017_C4_E,2,aggregate,152.82,152.822644,restore_source_precision_or_transcription,500mL Reactor,E43
+122,ESI017_C4_E,3,glucose,10.1,10.0661,restore_source_precision_or_transcription,500mL Reactor,E27
+122,ESI017_C4_E,3,aggregate,195.03,195.025236,restore_source_precision_or_transcription,500mL Reactor,E44
+123,ESI017_C4_E,4,glucose,8.2,8.1787,restore_source_precision_or_transcription,500mL Reactor,E28
+123,ESI017_C4_E,4,aggregate,245.87,245.872816,restore_source_precision_or_transcription,500mL Reactor,E45
+124,ESI017_C4_E,5,glucose,7.4,7.3886,restore_source_precision_or_transcription,500mL Reactor,E29
+124,ESI017_C4_E,5,aggregate,284.14,284.13866,restore_source_precision_or_transcription,500mL Reactor,E46
+125,ESI017_C4_F,1,glucose,13.5,13.4678,restore_source_precision_or_transcription,500mL Reactor,F25
+125,ESI017_C4_F,1,aggregate,84.09,84.0895722,restore_source_precision_or_transcription,500mL Reactor,F42
+126,ESI017_C4_F,2,glucose,11.3,11.254,restore_source_precision_or_transcription,500mL Reactor,F26
+126,ESI017_C4_F,2,aggregate,155.76,155.761418,restore_source_precision_or_transcription,500mL Reactor,F43
+127,ESI017_C4_F,3,glucose,9.5,9.5202,restore_source_precision_or_transcription,500mL Reactor,F27
+127,ESI017_C4_F,3,aggregate,208.81,208.808542,restore_source_precision_or_transcription,500mL Reactor,F44
+128,ESI017_C4_F,4,glucose,7.9,7.8687,restore_source_precision_or_transcription,500mL Reactor,F28
+128,ESI017_C4_F,4,aggregate,278.75,278.749614,restore_source_precision_or_transcription,500mL Reactor,F45
+129,ESI017_C4_F,5,cells,913000.0,912666.6666666666,restore_source_precision_or_transcription,500mL Reactor,F9
+129,ESI017_C4_F,5,glucose,7.5,7.4956,restore_source_precision_or_transcription,500mL Reactor,F29
+129,ESI017_C4_F,5,aggregate,308.83,308.829142,restore_source_precision_or_transcription,500mL Reactor,F46
+130,ESI017_C4_G,1,glucose,12.7,12.7299,restore_source_precision_or_transcription,500mL Reactor,G25
+130,ESI017_C4_G,1,aggregate,89.57,89.572433,restore_source_precision_or_transcription,500mL Reactor,G42
+131,ESI017_C4_G,2,glucose,10.2,10.1758,restore_source_precision_or_transcription,500mL Reactor,G26
+131,ESI017_C4_G,2,aggregate,165.51,165.513931,restore_source_precision_or_transcription,500mL Reactor,G43
+132,ESI017_C4_G,3,glucose,8.2,8.1705,restore_source_precision_or_transcription,500mL Reactor,G27
+132,ESI017_C4_G,3,aggregate,208.31,208.309299,restore_source_precision_or_transcription,500mL Reactor,G44
+133,ESI017_C4_G,4,glucose,7.1,7.1198,restore_source_precision_or_transcription,500mL Reactor,G28
+133,ESI017_C4_G,4,aggregate,237.01,237.009346,restore_source_precision_or_transcription,500mL Reactor,G45
+134,ESI017_C4_G,5,glucose,6.1,6.0993,restore_source_precision_or_transcription,500mL Reactor,G29
+134,ESI017_C4_G,5,aggregate,283.47,283.473078,restore_source_precision_or_transcription,500mL Reactor,G46
+135,ESI017_C4_H,1,glucose,13.5,13.5007,restore_source_precision_or_transcription,500mL Reactor,H25
+135,ESI017_C4_H,1,aggregate,86.1,86.0961072,restore_source_precision_or_transcription,500mL Reactor,H42
+136,ESI017_C4_H,2,glucose,11.3,11.3308,restore_source_precision_or_transcription,500mL Reactor,H26
+136,ESI017_C4_H,2,aggregate,144.15,144.147124,restore_source_precision_or_transcription,500mL Reactor,H43
+137,ESI017_C4_H,3,glucose,9.2,9.1882,restore_source_precision_or_transcription,500mL Reactor,H27
+137,ESI017_C4_H,3,aggregate,203.62,203.616369,restore_source_precision_or_transcription,500mL Reactor,H44
+138,ESI017_C4_H,4,cells,651000.0,651333.3333333333,restore_source_precision_or_transcription,500mL Reactor,H8
+138,ESI017_C4_H,4,glucose,8.3,8.2583,restore_source_precision_or_transcription,500mL Reactor,H28
+138,ESI017_C4_H,4,aggregate,238.89,238.888511,restore_source_precision_or_transcription,500mL Reactor,H45
+139,ESI017_C4_H,5,cells,1120000.0,1118000,restore_source_precision_or_transcription,500mL Reactor,H9
+139,ESI017_C4_H,5,glucose,6.3,6.2913,restore_source_precision_or_transcription,500mL Reactor,H29
+139,ESI017_C4_H,5,aggregate,271.59,271.594468,restore_source_precision_or_transcription,500mL Reactor,H46
+140,ESI017_C4_I,1,glucose,13.4,13.3663,restore_source_precision_or_transcription,500mL Reactor,I25
+140,ESI017_C4_I,1,aggregate,68.79,68.7872813,restore_source_precision_or_transcription,500mL Reactor,I42
+141,ESI017_C4_I,2,glucose,12.0,12.0468,restore_source_precision_or_transcription,500mL Reactor,I26
+141,ESI017_C4_I,2,aggregate,116.35,116.353018,restore_source_precision_or_transcription,500mL Reactor,I43
+142,ESI017_C4_I,3,glucose,10.7,10.741,restore_source_precision_or_transcription,500mL Reactor,I27
+142,ESI017_C4_I,3,aggregate,142.2,142.203877,restore_source_precision_or_transcription,500mL Reactor,I44
+143,ESI017_C4_I,4,glucose,8.8,8.8481,restore_source_precision_or_transcription,500mL Reactor,I28
+143,ESI017_C4_I,4,aggregate,167.14,167.136848,restore_source_precision_or_transcription,500mL Reactor,I45
+144,ESI017_C4_I,5,glucose,7.6,7.6246,restore_source_precision_or_transcription,500mL Reactor,I29
+144,ESI017_C4_I,5,aggregate,188.76,188.758188,restore_source_precision_or_transcription,500mL Reactor,I46
+145,ESI017_C4_J,1,glucose,13.1,13.1002,restore_source_precision_or_transcription,500mL Reactor,J25
+145,ESI017_C4_J,1,aggregate,92.68,92.6843341,restore_source_precision_or_transcription,500mL Reactor,J42
+146,ESI017_C4_J,2,glucose,10.3,10.3075,restore_source_precision_or_transcription,500mL Reactor,J26
+146,ESI017_C4_J,2,aggregate,158.21,158.208495,restore_source_precision_or_transcription,500mL Reactor,J43
+147,ESI017_C4_J,3,glucose,8.2,8.2089,restore_source_precision_or_transcription,500mL Reactor,J27
+147,ESI017_C4_J,3,aggregate,197.22,197.220914,restore_source_precision_or_transcription,500mL Reactor,J44
+148,ESI017_C4_J,4,glucose,7.8,7.8029,restore_source_precision_or_transcription,500mL Reactor,J28
+148,ESI017_C4_J,4,aggregate,227.18,227.179685,restore_source_precision_or_transcription,500mL Reactor,J45
+149,ESI017_C4_J,5,cells,1130000.0,1133866.6666666667,restore_source_precision_or_transcription,500mL Reactor,J9
+149,ESI017_C4_J,5,glucose,7.3,7.2926,restore_source_precision_or_transcription,500mL Reactor,J29
+149,ESI017_C4_J,5,aggregate,242.96,242.964366,restore_source_precision_or_transcription,500mL Reactor,J46
+150,ESI017_C4_K,1,glucose,13.3,13.3471,restore_source_precision_or_transcription,500mL Reactor,K25
+150,ESI017_C4_K,1,aggregate,88.75,88.7477699,restore_source_precision_or_transcription,500mL Reactor,K42
+151,ESI017_C4_K,2,glucose,10.5,10.5133,restore_source_precision_or_transcription,500mL Reactor,K26
+151,ESI017_C4_K,2,aggregate,163.16,163.161024,restore_source_precision_or_transcription,500mL Reactor,K43
+152,ESI017_C4_K,3,glucose,8.3,8.3104,restore_source_precision_or_transcription,500mL Reactor,K27
+152,ESI017_C4_K,3,aggregate,207.51,207.512121,restore_source_precision_or_transcription,500mL Reactor,K44
+153,ESI017_C4_K,4,glucose,7.7,7.6877,restore_source_precision_or_transcription,500mL Reactor,K28
+153,ESI017_C4_K,4,aggregate,226.39,226.38829,restore_source_precision_or_transcription,500mL Reactor,K45
+154,ESI017_C4_K,5,cells,1060000.0,1056000,restore_source_precision_or_transcription,500mL Reactor,K9
+154,ESI017_C4_K,5,glucose,6.7,6.6562,restore_source_precision_or_transcription,500mL Reactor,K29
+154,ESI017_C4_K,5,aggregate,244.72,244.719966,restore_source_precision_or_transcription,500mL Reactor,K46
+155,ESI017_C5_F,1,aggregate,72.69,72.6915366,restore_source_precision_or_transcription,Varied by RPM,F43
+156,ESI017_C5_F,2,aggregate,162.98,162.981481,restore_source_precision_or_transcription,Varied by RPM,F44
+157,ESI017_C5_F,3,aggregate,213.57,213.566131,restore_source_precision_or_transcription,Varied by RPM,F45
+158,ESI017_C5_F,4,aggregate,294.48,294.479606,restore_source_precision_or_transcription,Varied by RPM,F46
+159,ESI017_C5_F,5,aggregate,320.29,320.291348,restore_source_precision_or_transcription,Varied by RPM,F47
+160,ESI017_C5_G,1,aggregate,79.34,79.3424901,restore_source_precision_or_transcription,Varied by RPM,G43
+161,ESI017_C5_G,2,aggregate,171.58,171.579228,restore_source_precision_or_transcription,Varied by RPM,G44
+162,ESI017_C5_G,3,aggregate,212.6,212.597762,restore_source_precision_or_transcription,Varied by RPM,G45
+163,ESI017_C5_G,4,aggregate,292.73,292.729329,restore_source_precision_or_transcription,Varied by RPM,G46
+164,ESI017_C5_G,5,aggregate,333.19,333.19004,restore_source_precision_or_transcription,Varied by RPM,G47
+165,ESI017_C5_H,1,glucose,13.7,13.7284,restore_source_precision_or_transcription,Varied by RPM,H25
+165,ESI017_C5_H,1,aggregate,103.04,103.03558707643812,restore_source_precision_or_transcription,Varied by RPM,H43
+166,ESI017_C5_H,2,cells,87000.0,87034.81392557023,restore_source_precision_or_transcription,Varied by RPM,H6
+166,ESI017_C5_H,2,glucose,11.9,11.8822,restore_source_precision_or_transcription,Varied by RPM,H26
+166,ESI017_C5_H,2,aggregate,187.77,187.77211977935391,restore_source_precision_or_transcription,Varied by RPM,H44
+167,ESI017_C5_H,3,glucose,10.2,10.1676,restore_source_precision_or_transcription,Varied by RPM,H27
+167,ESI017_C5_H,3,aggregate,253.19,253.18697082693575,restore_source_precision_or_transcription,Varied by RPM,H45
+168,ESI017_C5_H,4,glucose,8.5,8.464,restore_source_precision_or_transcription,Varied by RPM,H28
+168,ESI017_C5_H,4,aggregate,303.06,303.06384948778566,restore_source_precision_or_transcription,Varied by RPM,H46
+169,ESI017_C5_H,5,cells,989000.0,988500,restore_source_precision_or_transcription,Varied by RPM,H9
+169,ESI017_C5_H,5,glucose,7.0,6.9909,restore_source_precision_or_transcription,Varied by RPM,H29
+169,ESI017_C5_H,5,aggregate,342.83,342.83037974683543,restore_source_precision_or_transcription,Varied by RPM,H47
+170,ESI017_C5_I,1,glucose,13.7,13.7257,restore_source_precision_or_transcription,Varied by RPM,I25
+170,ESI017_C5_I,1,aggregate,100.92,100.92011032308899,restore_source_precision_or_transcription,Varied by RPM,I43
+171,ESI017_C5_I,2,glucose,11.7,11.745,restore_source_precision_or_transcription,Varied by RPM,I26
+171,ESI017_C5_I,2,aggregate,193.1,193.09780929866037,restore_source_precision_or_transcription,Varied by RPM,I44
+172,ESI017_C5_I,3,glucose,9.6,9.6107,restore_source_precision_or_transcription,Varied by RPM,I27
+172,ESI017_C5_I,3,aggregate,254.99,254.9900882200312,restore_source_precision_or_transcription,Varied by RPM,I45
+173,ESI017_C5_I,4,glucose,8.1,8.1348,restore_source_precision_or_transcription,Varied by RPM,I28
+173,ESI017_C5_I,4,aggregate,295.91,295.90541993281084,restore_source_precision_or_transcription,Varied by RPM,I46
+174,ESI017_C5_I,5,cells,1000000.0,1000500,restore_source_precision_or_transcription,Varied by RPM,I9
+174,ESI017_C5_I,5,glucose,6.9,6.9278,restore_source_precision_or_transcription,Varied by RPM,I29
+174,ESI017_C5_I,5,aggregate,348.04,348.0427872340426,restore_source_precision_or_transcription,Varied by RPM,I47
+175,ESI017_C6_Y,1,aggregate,49.67,49.6672656,restore_source_precision_or_transcription,Varied by RPM,Y43
+176,ESI017_C6_Y,2,aggregate,87.91,87.9121355,restore_source_precision_or_transcription,Varied by RPM,Y44
+177,ESI017_C6_Y,3,aggregate,131.4,131.403262,restore_source_precision_or_transcription,Varied by RPM,Y45
+178,ESI017_C6_Y,4,aggregate,175.72,175.716013,restore_source_precision_or_transcription,Varied by RPM,Y46
+179,ESI017_C6_Y,5,aggregate,200.76,200.762033,restore_source_precision_or_transcription,Varied by RPM,Y47
+180,ESI017_C6_Y,6,aggregate,224.95,224.954815,restore_source_precision_or_transcription,Varied by RPM,Y48
+181,ESI017_C6_Z,1,aggregate,45.21,45.2138377,restore_source_precision_or_transcription,Varied by RPM,Z43
+182,ESI017_C6_Z,2,aggregate,80.36,80.3581875,restore_source_precision_or_transcription,Varied by RPM,Z44
+183,ESI017_C6_Z,3,aggregate,143.85,143.846351,restore_source_precision_or_transcription,Varied by RPM,Z45
+184,ESI017_C6_Z,4,aggregate,181.48,181.483956,restore_source_precision_or_transcription,Varied by RPM,Z46
+185,ESI017_C6_Z,5,aggregate,213.63,213.630843,restore_source_precision_or_transcription,Varied by RPM,Z47
+186,ESI017_C6_Z,6,aggregate,237.63,237.631269,restore_source_precision_or_transcription,Varied by RPM,Z48
+187,ESI017_C6_AA,1,aggregate,47.88,47.8789756,restore_source_precision_or_transcription,Varied by RPM,AA43
+188,ESI017_C6_AA,2,aggregate,88.53,88.5293775,restore_source_precision_or_transcription,Varied by RPM,AA44
+189,ESI017_C6_AA,3,aggregate,144.42,144.419322,restore_source_precision_or_transcription,Varied by RPM,AA45
+190,ESI017_C6_AA,4,aggregate,183.03,183.027786,restore_source_precision_or_transcription,Varied by RPM,AA46
+191,ESI017_C6_AA,5,aggregate,215.09,215.094452,restore_source_precision_or_transcription,Varied by RPM,AA47
+192,ESI017_C6_AA,6,aggregate,242.32,242.319543,restore_source_precision_or_transcription,Varied by RPM,AA48
+193,ESI017_C6_AB,1,aggregate,44.45,44.4482112,restore_source_precision_or_transcription,Varied by RPM,AB43
+194,ESI017_C6_AB,2,aggregate,84.53,84.5250276,restore_source_precision_or_transcription,Varied by RPM,AB44
+195,ESI017_C6_AB,3,aggregate,138.43,138.427723,restore_source_precision_or_transcription,Varied by RPM,AB45
+196,ESI017_C6_AB,4,aggregate,181.54,181.537667,restore_source_precision_or_transcription,Varied by RPM,AB46
+197,ESI017_C6_AB,5,aggregate,214.42,214.419117,restore_source_precision_or_transcription,Varied by RPM,AB47
+198,ESI017_C6_AB,6,aggregate,239.53,239.525973,restore_source_precision_or_transcription,Varied by RPM,AB48
+199,ESI017_C6_AC,1,aggregate,46.37,46.367234,restore_source_precision_or_transcription,Varied by RPM,AC43
+200,ESI017_C6_AC,2,aggregate,93.16,93.1629314,restore_source_precision_or_transcription,Varied by RPM,AC44
+201,ESI017_C6_AC,3,aggregate,119.38,119.379448,restore_source_precision_or_transcription,Varied by RPM,AC45
+202,ESI017_C6_AC,4,aggregate,162.09,162.0855,restore_source_precision_or_transcription,Varied by RPM,AC46
+203,ESI017_C6_AC,5,aggregate,195.3,195.296296,restore_source_precision_or_transcription,Varied by RPM,AC47
+204,ESI017_C6_AC,6,aggregate,217.72,217.71814,restore_source_precision_or_transcription,Varied by RPM,AC48
+205,ESI017_C6_AD,1,aggregate,48.22,48.2225532,restore_source_precision_or_transcription,Varied by RPM,AD43
+206,ESI017_C6_AD,2,aggregate,95.09,95.0892671,restore_source_precision_or_transcription,Varied by RPM,AD44
+207,ESI017_C6_AD,3,aggregate,122.1,122.10476,restore_source_precision_or_transcription,Varied by RPM,AD45
+208,ESI017_C6_AD,4,aggregate,165.69,165.694988,restore_source_precision_or_transcription,Varied by RPM,AD46
+209,ESI017_C6_AD,5,aggregate,193.15,193.145201,restore_source_precision_or_transcription,Varied by RPM,AD47
+210,ESI017_C6_AD,6,aggregate,222.32,222.323452,restore_source_precision_or_transcription,Varied by RPM,AD48

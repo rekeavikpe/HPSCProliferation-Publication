@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "matched_outputs": [
+    "statistics/summary.csv",
+    "statistics/tests.csv",
+    "statistics/pairwise_rank_tests.csv",
+    "statistics/exposure_correlations.csv",
+    "oxygen/condition_summary.csv",
+    "oxygen/scaling_scenarios.csv"
+  ]
+}

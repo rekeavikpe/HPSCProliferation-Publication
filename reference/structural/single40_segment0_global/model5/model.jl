@@ -1,0 +1,12 @@
+@ODEmodel(
+E'(t)=-E(t)//12,
+X1'(t)=(((mu_max*G1(t)/(G1(t)+K_G)*K_Lac/(L1(t)+K_Lac)*K_Agg/(A1(t)^3+K_Agg))*(K_tau/(((1274507//500000000)+(0//1)*A1(t))+K_tau)))-K_d*E(t))*X1(t),
+G1'(t)=-(Y_GX*((mu_max*G1(t)/(G1(t)+K_G)*K_Lac/(L1(t)+K_Lac)*K_Agg/(A1(t)^3+K_Agg))*(K_tau/(((1274507//500000000)+(0//1)*A1(t))+K_tau)))+Y_GLac*(K_oG*((mu_max*G1(t)/(G1(t)+K_G)*K_Lac/(L1(t)+K_Lac)*K_Agg/(A1(t)^3+K_Agg))*(K_tau/(((1274507//500000000)+(0//1)*A1(t))+K_tau)))*G1(t)))*X1(t),
+L1'(t)=(K_oG*((mu_max*G1(t)/(G1(t)+K_G)*K_Lac/(L1(t)+K_Lac)*K_Agg/(A1(t)^3+K_Agg))*(K_tau/(((1274507//500000000)+(0//1)*A1(t))+K_tau)))*G1(t))*X1(t),
+A1'(t)=((mu_max*G1(t)/(G1(t)+K_G)*K_Lac/(L1(t)+K_Lac)*K_Agg/(A1(t)^3+K_Agg))*(K_tau/(((1274507//500000000)+(0//1)*A1(t))+K_tau)))*(alpha-((143//1000000)+(0//1)*A1(t))/K_eps*A1(t)),
+clock(t)=E(t),
+obsX1(t)=X1(t),
+obsG1(t)=G1(t),
+obsL1(t)=L1(t),
+obsA1(t)=A1(t)
+)

@@ -1,0 +1,227 @@
+Precompiling packages...
+   2746.3 ms  ✓ TestExt (serial)
+  1 dependency successfully precompiled in 3 seconds
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_oG, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_oG, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_oG, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_oG, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_oG, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_oG, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, gamma, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, gamma, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, gamma, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, gamma, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, gamma, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: E, X1, G1, L1, A1, X2, G2, L2, A2, X3, G3, L3, A3, X4, G4, L4, A4, X5, G5, L5, A5
+[ Info: Parameters: K_Agg, K_G, K_Lac, K_d, K_eps, K_oG, K_tau, Y_GLac, Y_GX, alpha, delta_max, gamma, mu_max
+[ Info: Inputs: 
+[ Info: Outputs: clock, obsX1, obsG1, obsL1, obsA1, obsX2, obsG2, obsL2, obsA2, obsX3, obsG3, obsL3, obsA3, obsX4, obsG4, obsL4, obsA4, obsX5, obsG5, obsL5, obsA5
+[ Info: Summary of the model:
+[ Info: State variables: x
+[ Info: Parameters: a
+[ Info: Inputs: 
+[ Info: Outputs: y
+[ Info: Summary of the model:
+[ Info: State variables: x
+[ Info: Parameters: a, b
+[ Info: Inputs: 
+[ Info: Outputs: y
+Test Summary:                             | Pass  Total  Time
+Symbolic and numerical equation agreement |  840    840  9.1s
+Test Summary:                                  | Pass  Total  Time
+Identifiability positive and negative controls |    2      2  6.2s

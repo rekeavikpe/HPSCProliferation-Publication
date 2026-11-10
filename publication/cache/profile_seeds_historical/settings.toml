@@ -1,0 +1,25 @@
+additional_fixed_parameter = ""
+model = 5
+mle_optimizer = "Fminbox/BFGS/BackTracking"
+profile_optimizer = "NLopt.LN_BOBYQA"
+mle_only = false
+parameters = ["K_Agg", "K_d", "K_G", "K_Lac", "K_oG", "Y_GLac", "Y_GX", "alpha", "mu_max", "K_tau", "K_eps"]
+resolution_per_direction = 100
+conditional_parent = ""
+lactate_inhibition = true
+next_initial_estimate_method = "prev"
+profile_scope = "all-active"
+coordinates = "normalized log parameters"
+smoke_test = false
+K_G_bounds = [0.1, 100.0]
+engine = "ProfileLikelihood.jl"
+routing_scenario = "full"
+K_Lac_bounds = [0.1, 100.0]
+package_version = "0.4.1"
+source_fit = "/home1/reke/HPSCProliferation-R2/results/training60_final/separate_ablations/profile_inputs/full"
+
+[fixed_parameters]
+
+[parameter_latex]
+K_tau = "K_{\\tau,X}"
+K_eps = "K_{\\varepsilon,A}"

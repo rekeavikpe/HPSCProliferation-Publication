@@ -1,0 +1,10 @@
+results/
+figures/output/
+figures/targeted_output/
+data/source/
+.julia/
+.DS_Store
+*.log
+*.pid
+.venv/
+__pycache__/

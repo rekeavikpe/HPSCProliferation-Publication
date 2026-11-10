@@ -1,0 +1,43 @@
+{
+  "title": "Code, data and cached results for In Silico Modeling of Shear Stress and Energy Dissipation Rate Effects on Human Pluripotent Stem Cell Proliferation in Vertical-Wheel Bioreactors",
+  "upload_type": "software",
+  "description": "Research code, curated measurements and CFD exposure summaries, saved model fits, final likelihood profiles, predictions, and figure/table reproduction scripts supporting the accepted Stem Cells Translational Medicine article SCTM-26-0107.R2. Code is Apache-2.0; data, cached results and figures are CC-BY-4.0. The archive does not contain raw CFD simulation projects or all historical optimization checkpoints. See README.md and LICENSES.md.",
+  "creators": [
+    {
+      "name": "Avikpe, Ferdinand R."
+    },
+    {
+      "name": "Alibhai, Faisal J."
+    },
+    {
+      "name": "Romero, David A."
+    },
+    {
+      "name": "Mostofinejad, Amirmahdi"
+    },
+    {
+      "name": "Bauer, Julia E. S."
+    },
+    {
+      "name": "Montague, E. Coulter"
+    },
+    {
+      "name": "Laflamme, Michael A."
+    },
+    {
+      "name": "Amon, Cristina H."
+    }
+  ],
+  "version": "1.0.2",
+  "license": "Apache-2.0",
+  "keywords": [
+    "human pluripotent stem cells",
+    "vertical-wheel bioreactor",
+    "mechanistic modelling",
+    "shear stress",
+    "energy dissipation rate",
+    "profile likelihood"
+  ],
+  "access_right": "open",
+  "doi": "10.5281/zenodo.24117723"
+}

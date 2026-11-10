@@ -1,0 +1,2 @@
+parameter,parameter_value,normalized_parameter,profile_loglik,stopping_met,retcode,starts,best_seed
+K_Lac,53.36699229261108,0.9090909090381429,-1.7348335679066622,true,Success,5,1.7361914113962484

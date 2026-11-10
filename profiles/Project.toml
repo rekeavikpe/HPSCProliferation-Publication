@@ -1,0 +1,19 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
+NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
+OptimizationNLopt = "4e6fcdb7-1186-4e1f-a706-475e75c168bb"
+OptimizationOptimJL = "36348300-93cb-4f02-beb5-3c3902f8871e"
+OrdinaryDiffEqTsit5 = "b1df2697-797e-41e3-8120-5422d3b24e4a"
+ProfileLikelihood = "3fca794e-44fa-49a6-b6a0-8cd45572ba0a"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+[compat]
+DiffEqBase = "=6.155.0"
+LineSearches = "=7.3.0"
+ProfileLikelihood = "=0.4.1"
+julia = "1.12"

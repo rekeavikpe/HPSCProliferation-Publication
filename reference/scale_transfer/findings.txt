@@ -1,0 +1,25 @@
+Retrospective scale-transfer evaluation
+
+Model 5 has the lowest achieved BIC using only the 116 training observations from conditions 1, 2, 3, 5 and 6. No 500-mL day 1–5 outcomes enter fitting, weights, initialization or model choice. P50 is specified, not selected against test errors. All kinetic parameters are free. Six initial guesses use seeded perturbations of the bounds midpoint. Two additional training-only refinements use each candidate optimum and a frozen Model 5 training-fit anchor. No full-data fitted vectors are used.
+
+Selected stopping criterion met: true; active bounds: K_Lac:upper.
+
+500-mL prediction errors (five condition means per state):
+cells: MRPE 21.99%; RMSE 60672.4; mean prediction-minus-observation -36721.1; R² 0.968.
+glucose: MRPE 9.65%; RMSE 0.949295; mean prediction-minus-observation 0.411742; R² 0.816.
+lactate: MRPE 11.16%; RMSE 1.29615; mean prediction-minus-observation -0.498883; R² 0.903.
+aggregate: MRPE 7.01%; RMSE 11.3407; mean prediction-minus-observation -10.5739; R² 0.965.
+
+Interpretation limits
+This is prediction without refitting, but it is retrospective internal evaluation: model structures, bounds, initial-state assumptions and P50 choice existed after analysis of all data. It is not an untouched external validation experiment. Using all-free training also differs from the documented three-fixed-parameter manuscript fit. Small test size, unresolved C4 aggregate day labels and unknown experimental batches limit interpretation. Test error bars are between-vessel SD, not prediction intervals. R² describes five daily condition means and is not an identifiability measure. No model is reranked using test errors. Model 0 is an a priori reference only.
+
+Day-zero glucose is an allowed measured input from the 500-mL experiment. Fresh glucose is assumed equal to that initial value; lactate starts at 0 and aggregate diameter at 15 µm. These conditional prediction assumptions must accompany any claim.
+
+Manuscript/response draft
+We performed a retrospective scale-transfer evaluation by estimating all kinetic parameters from the five 100-mL conditions and selecting Model 5 by training-data BIC among seven distinct candidates. We then simulated the 500-mL condition using its vessel-specific P50 hydrodynamic inputs, feeding protocol and specified initial conditions, without refitting to later-time outcomes. State-specific prediction errors are reported separately from calibration errors. Because the model family and analysis settings were developed with prior access to the dataset, this analysis is not presented as independent external validation.
+
+The C4/C5 contrast remains unresolved
+At day 5, C4 aggregate size is predicted as 257.47 µm versus 261.83 µm observed. However, C5 remains underpredicted within training: 253.25 µm versus 330.82 µm. The predicted C5−C4 contrast is -4.22 µm versus 68.99 µm observed. Thus the favorable C4 transfer error does not resolve the between-vessel contrast or establish general scale-up accuracy.
+
+Suggested Results addition
+The training-selected Model 5 had lower achieved training BIC than the next candidate by 10.17. Its 500-mL prediction MRPEs were 22.0%, 9.7%, 11.2% and 7.0% for viable cells, glucose, lactate and aggregate diameter, respectively, compared with 35.2%, 12.4%, 22.7% and 19.1% for the no-hydrodynamics reference. These errors apply to five daily condition means per state. The model continued to underpredict aggregate size in the 100-mL, 30-rpm training condition, so the observed vessel-size contrast remained unresolved.

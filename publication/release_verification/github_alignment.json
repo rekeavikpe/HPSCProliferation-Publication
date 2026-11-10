@@ -1,0 +1,28 @@
+{
+  "base_commit": "cd7e98567ee3be0e4b3884982d3dbe83246b7f0d",
+  "matching_release_tag": "v1.0.2",
+  "identical_tracked_files": 680,
+  "changed_tracked_files": [
+    "NOTICE",
+    "README.md",
+    "START_HERE.md",
+    "docs/model_numbering.md",
+    "scripts/predict_cell_lines.jl"
+  ],
+  "omitted_upstream_files": [
+    "data/reference/neto2022/2PDabPlot.txt",
+    "data/reference/neto2022/Constants.m",
+    "data/reference/neto2022/P2Dict.txt",
+    "data/reference/neto2022/calcAdimensionalNumbers.m",
+    "data/reference/neto2022/calcDab.m",
+    "data/reference/neto2022/calcNuH2O.m",
+    "data/reference/neto2022/calcRhoH2O.m"
+  ],
+  "scientific_code_unchanged": true,
+  "curated_numerical_inputs_unchanged": true,
+  "reporting_only_script_change": "scripts/predict_cell_lines.jl removes a superseded no-DS label; equations, inputs, selections and predictions are unchanged.",
+  "new_publication_files": "Final caches, reference plots, portable plotting and verification scripts, licensing and release documentation.",
+  "removed_optional_artwork": "Unused historical cross-validation exports; all final paper figures and numerical CV results remain.",
+  "citation_only_update_from": "v1.0.1",
+  "zenodo_doi": "10.5281/zenodo.24117723"
+}

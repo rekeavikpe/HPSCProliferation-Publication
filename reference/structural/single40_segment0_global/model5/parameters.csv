@@ -1,0 +1,12 @@
+model,design,segment,parameter,classification,mode
+5,single40,0,K_Agg,globally,global
+5,single40,0,K_G,globally,global
+5,single40,0,K_Lac,globally,global
+5,single40,0,K_d,globally,global
+5,single40,0,K_eps,globally,global
+5,single40,0,K_oG,globally,global
+5,single40,0,K_tau,nonidentifiable,global
+5,single40,0,Y_GLac,globally,global
+5,single40,0,Y_GX,globally,global
+5,single40,0,alpha,globally,global
+5,single40,0,mu_max,nonidentifiable,global

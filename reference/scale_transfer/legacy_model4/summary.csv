@@ -1,0 +1,2 @@
+publication_model,legacy_model,n,k,nll,bic,stopping_met,boundaries,run,stage,raw_minimum_nll
+3,4,116,12,641.2586004219112,1339.5602831370988,true,K_Agg:upper;K_Lac:upper;delta_max:upper,7,polished,641.2586004219112

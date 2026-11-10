@@ -1,0 +1,25 @@
+{
+  "source_sha256": {
+    "Particles_REBUILT_ALLNONAN_fromTXT.xlsx": "9e69508ceb22d5279cbc054ee83cde2fd057aa0baadd455d8963bb5237587e0f",
+    "Summary_of_FluidDomain_Particle_EDR_ShearStress.xlsx": "a88ff024fe4366e3ce83f2c4dc9ff1bb5a3a833ba38a39baeaa4e867a717466f",
+    "Summary_of_VA_EDR_ShearStress.xlsx": "5d18b860528d92e3cc814e69c147d3882eff85be2c1993ad8e3105a2ba12a1bf"
+  },
+  "records": 350,
+  "scenarios": [
+    "lag_mean",
+    "lag_max",
+    "lag_p50",
+    "lag_p25",
+    "lag_p75",
+    "lag_p90",
+    "eul_va",
+    "eul_max",
+    "eul_p50",
+    "eul_p75",
+    "eul_p90"
+  ],
+  "source_policy": "Use rebuilt particle workbook; do not mix older particle summaries into the same percentile series. Eulerian values come from Fluid_Domain; VA checked against separate VA workbook.",
+  "excluded_rows": "Fluid_Domain row20 has no volume/RPM identifiers and is not imported. Notes/blank rows excluded.",
+  "interpretation": "Workbook-provided marginal shear and EDR summaries; paired maxima need not occur simultaneously. No raw particle trajectories or CFD weighting scheme reconstructed.",
+  "lagrangian_size_policy": "Same linear interpolation and endpoint clamping as the main fit."
+}

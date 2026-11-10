@@ -1,0 +1,10 @@
+parameter,lower_crossed,upper_crossed,points,lower_hits_bound,upper_hits_bound,unconfirmed_points,better_minimum,lower_endpoint_profile_loglik,upper_endpoint_profile_loglik
+K_Agg,true,true,87,false,false,0,false,-1.921275537360613,-1.920687085374128
+K_d,true,true,25,false,false,0,false,-1.9207385081361483,-1.9206842293545974
+K_G,true,true,245,false,false,0,false,-1.9207556319310184,-1.920729053772479
+K_oG,true,true,19,false,false,0,false,-1.9207430968920813,-1.9205546354273748
+Y_GLac,true,true,21,false,false,0,false,-1.9210182572654413,-1.9205947479159806
+alpha,true,true,20,false,false,0,false,-1.9207284579048907,-1.9205345691865148
+mu_max,true,true,119,false,false,0,false,-1.9209558229511094,-1.920729412195352
+K_tau,true,true,20,false,false,0,false,-1.921399964833893,-1.9200497908536047
+K_eps,true,true,96,false,false,0,false,-1.9207866134327292,-1.9207149743588257

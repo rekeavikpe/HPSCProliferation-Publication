@@ -1,0 +1,8 @@
+include("October20.jl")
+fit,dir=ARGS;cfg=TOML.parsefile(joinpath(dir,"calibration.toml"));line=strip(read(joinpath(dir,"cell_line.txt"),String));ctx=cell_context(line,cfg)
+parent=read_parameters(joinpath(fit,"model5/selected_parameters.csv"),6)
+source=isfile(joinpath(dir,"profiles/mle_parameters.csv")) ? joinpath(dir,"profiles/mle_parameters.csv") : joinpath(dir,"selected_parameters.csv")
+p=read_parameters(source,6);save_parameters(joinpath(dir,"reported_parameters.csv"),p)
+CSV.write(joinpath(dir,"parameter_policy.csv"),[(parameter=string(n),estimated=n in free_names(ctx,6),reference_value=getproperty(parent,n),value=getproperty(p,n)) for n in keys(parent)])
+CSV.write(joinpath(dir,"errors.csv"),vcat(report_metrics(ctx,6,parent;tag="Unchanged ESI-017",cohort=line),report_metrics(ctx,6,p;tag="Recalibrated",cohort=line)))
+CSV.write(joinpath(dir,"curves.csv"),vcat([merge((strategy="Unchanged ESI-017",),r) for r in export_curves(ctx,6,parent)],[merge((strategy="Recalibrated",),r) for r in export_curves(ctx,6,p)]))

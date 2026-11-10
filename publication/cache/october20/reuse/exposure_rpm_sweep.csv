@@ -1,0 +1,11 @@
+scenario,volume_ml,rpm,size_um,shear_pa,edr_m2_s3,source_file,source_sheet,shear_cell,edr_cell
+lag_p50,100,20,200,0.001950506,5.95e-5,Particles_REBUILT_ALLNONAN_fromTXT.xlsx,Particles_REBUILT_ALLNONAN,F2,L2
+lag_p50,100,30,200,0.0025891305,0.000107,Particles_REBUILT_ALLNONAN_fromTXT.xlsx,Particles_REBUILT_ALLNONAN,F7,L7
+lag_p50,100,40,200,0.002549014,0.000143,Particles_REBUILT_ALLNONAN_fromTXT.xlsx,Particles_REBUILT_ALLNONAN,F12,L12
+lag_p50,100,60,200,0.004418696,0.000503,Particles_REBUILT_ALLNONAN_fromTXT.xlsx,Particles_REBUILT_ALLNONAN,F17,L17
+lag_p50,100,80,200,0.0020235725,0.000339,Particles_REBUILT_ALLNONAN_fromTXT.xlsx,Particles_REBUILT_ALLNONAN,F22,L22
+eul_va,100,20,,0.0020246945277751257,8.0932661630488e-5,Summary_of_FluidDomain_Particle_EDR_ShearStress.xlsx,Fluid_Domain,C3,I3
+eul_va,100,30,,0.002835894879402714,0.0001735784480865342,Summary_of_FluidDomain_Particle_EDR_ShearStress.xlsx,Fluid_Domain,C4,I4
+eul_va,100,40,,0.00367692785370753,0.00033511934020923805,Summary_of_FluidDomain_Particle_EDR_ShearStress.xlsx,Fluid_Domain,C5,I5
+eul_va,100,60,,0.005445634999860279,0.0009299924503180517,Summary_of_FluidDomain_Particle_EDR_ShearStress.xlsx,Fluid_Domain,C6,I6
+eul_va,100,80,,0.0075161824435717945,0.001993060748515488,Summary_of_FluidDomain_Particle_EDR_ShearStress.xlsx,Fluid_Domain,C7,I7

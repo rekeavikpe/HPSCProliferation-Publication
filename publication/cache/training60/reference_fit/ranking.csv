@@ -1,0 +1,8 @@
+model,legacy_model,n,k,nll,bic,stopping_met,boundaries,run,stage
+5,6,116,11,610.0410001792391,1272.3714924606481,false,K_Lac:upper,run101,polished
+1,1,116,12,611.0664936882433,1279.176069669763,false,K_Lac:upper;delta_max:upper,run101,initial
+2,3,116,12,611.0686400386459,1279.1803623705682,true,K_Lac:upper;delta_max:upper,run85,polished
+4,5,116,12,611.0773576741133,1279.1977976415028,false,K_Lac:upper;delta_max:upper,run49,polished
+6,7,116,13,611.0664936927441,1283.9296598698709,false,K_Lac:upper;delta_max:upper;gamma:lower,run101,initial
+3,4,116,12,634.1673454230807,1325.377773139438,true,K_Lac:upper;delta_max:upper,run5,polished
+0,0,116,9,658.9974762716253,1360.7772642632078,true,K_Lac:upper,run53,polished

@@ -1,0 +1,4 @@
+label,temperature_C,volume_ml,rpm,kla_h
+"Neto 60-rpm experimental settings: correlation estimate, not measured value",24.2,105.0,60,1.5164789122964775
+100-mL room-temperature comparison,24.2,100.0,60,1.6664260193891682
+100-mL culture-temperature estimate,37.0,100.0,60,2.26034413042443

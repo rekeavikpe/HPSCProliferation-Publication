@@ -1,0 +1,2 @@
+parameter,parameter_value,normalized_parameter,profile_loglik,stopping_met,retcode,starts,best_seed
+Y_GX,5.31270745823153e-6,0.7875526503907012,-0.05838915040317261,true,Success,9,0.05872487149031258

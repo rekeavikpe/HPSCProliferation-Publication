@@ -1,0 +1,68 @@
+PASS: verified 1831 release files
+Checking verify_primary.jl
+Verified training Model 0 NLL=658.9974762716256 BIC=1360.7772642632085
+Verified selection Model 0 NLL=745.8150345080959 BIC=1534.412380736149
+Verified training Model 1 NLL=611.0664936940831 BIC=1279.1760696814426
+Verified selection Model 1 NLL=703.980257365922 BIC=1465.0035970251201
+Verified training Model 3 NLL=611.068640037412 BIC=1279.1803623681003
+Verified selection Model 3 NLL=703.9981653679862 BIC=1465.0394130292489
+Verified training Model 4 NLL=634.167345415409 BIC=1325.3777731240943
+Verified selection Model 4 NLL=724.6791909527841 BIC=1506.4014641988447
+Verified training Model 5 NLL=611.0773576744411 BIC=1279.1977976421585
+Verified selection Model 5 NLL=704.0582957022191 BIC=1465.1596736977144
+Verified training Model 6 NLL=610.0410001807558 BIC=1272.3714924636815
+Verified selection Model 6 NLL=703.220039668507 BIC=1458.729571439184
+Verified training Model 7 NLL=611.0664937308069 BIC=1283.9296599459965
+Verified selection Model 7 NLL=703.9806380142045 BIC=1469.7579485127917
+Verified 500 mL Model 0 predictions: 20
+Verified 500 mL Model 6 predictions: 20
+PRIMARY VERIFICATION PASSED
+Checking verify_additional.jl
+Verified P75 Model 0 BIC=1534.412380736149
+Verified P75 Model 1 BIC=1465.7705970189568
+Verified P75 Model 3 BIC=1465.809155181108
+Verified P75 Model 4 BIC=1509.4436263560501
+Verified P75 Model 5 BIC=1465.9946895045914
+Verified P75 Model 6 BIC=1459.8061764027034
+Verified P75 Model 7 BIC=1470.5248251774537
+Verified 585A1 Recalibration 1 MRPE=8.918709713336757
+Verified 585A1 Recalibration 2 MRPE=14.026706237913746
+Verified SCTi003-A Recalibration 1 MRPE=6.202394199824939
+Verified SCTi003-A Recalibration 2 MRPE=7.2040474652536
+P75 AND iPSC FIT VERIFICATION PASSED
+Checking verify_cross_validation.jl
+Verified loco_condition1 (paper Condition 1)
+Verified loco_condition2 (paper Condition 2)
+Verified loco_condition3 (paper Condition 3)
+Verified loco_condition4 (paper Condition 5)
+Verified loco_condition5 (paper Condition 6)
+LOCO VERIFICATION PASSED
+Checking verify_nine_profiles.jl
+Reference NLL reproduced: 610.0410001639033; training cultures: 19; observations: 116
+K_Agg reproduced 87 points; max |difference| = 2.401993697276339e-7
+K_d reproduced 25 points; max |difference| = 0.0
+K_G reproduced 245 points; max |difference| = 1.6850663087097928e-9
+K_oG reproduced 19 points; max |difference| = 0.0
+Y_GLac reproduced 21 points; max |difference| = 1.1609699868131429e-9
+alpha reproduced 20 points; max |difference| = 1.638227331568487e-10
+mu_max reproduced 119 points; max |difference| = 3.352079147589393e-8
+K_tau reproduced 20 points; max |difference| = 1.1903011909453198e-8
+K_eps reproduced 96 points; max |difference| = 1.7874526747618802e-8
+Checking verify_two_diagnostics.jl
+Reference reproduced: 610.0410001770447
+K_Lac points=11 issues=String[] lower_crossed=true upper_crossed=false physical_limits=51.06356125729629 / 100.00000000000004
+Y_GX points=135 issues=String[] lower_crossed=false upper_crossed=true physical_limits=9.999999999999996e-11 / 1.2005786955243352e-5
+All 146 saved likelihoods reproduced. Maximum difference: 2.9390321287792176e-9
+Test Summary:                    | Pass  Total  Time
+Frozen media-exchange evaluation |  170    170  3.5s
+Saved media-exchange predictions to /var/folders/l9/sjdsy_mx7dzg700z8rb9yyl00000gn/T/hpsc_publication_9ydpv7nj/media
+Test Summary:             | Pass  Total  Time
+Frozen cell-line transfer |  102    102  3.2s
+Downloading the pinned Neto reference table from the authors' repository.
+PASS: Neto reference table matches the recorded source checksum.
+Test Summary:                           | Pass  Total  Time
+Oxygen dimensional and threshold checks |   10     10  0.2s
+Oxygen tables saved: /Users/ferdinandavikpe/Documents/Codex/2026-10-02/referenced-chatgpt-conversation-this-is-an/outputs/zenodo_release_20261110/relocated_test/HPSCProliferation_v1.0.0/publication/generated/oxygen_reference
+PASS: 336 numeric comparisons against submitted tables; fresh frozen-transfer predictions match their saved values.
+PASS: reproduced statistical summaries, tests and final oxygen scaling.
+All publication numerical checks passed. Results: publication/verification and publication/generated/tables.

@@ -1,0 +1,3 @@
+publication_model,storage_model,legacy_model,training_n,training_nll,training_bic,k,selection_n,selection_nll,selection_mean_nll,training_stopping_met,training_run,training_stage
+6,5,6,92,502.43548510435346,1054.6106445562464,11,24,120.70202951455057,5.029251229772941,true,run84,polished
+0,0,0,92,555.7478972335988,1152.191891660639,9,24,122.27929964457967,5.0949708185241525,true,run89,polished

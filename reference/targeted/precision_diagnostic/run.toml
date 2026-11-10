@@ -1,0 +1,5 @@
+julia = "1.12.4"
+threads = 1
+status = "complete"
+analysis = "ODE precision and projected finite-difference gradients"
+source_fit = "/Users/ferdinandavikpe/Desktop/HPSCProliferation-R2/results/reproduction_calibration"

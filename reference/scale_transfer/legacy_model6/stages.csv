@@ -1,0 +1,17 @@
+run,stage,nll,stopping_met,filename
+1,least_squares,2827.8459211826566,false,run1_least_squares_parameters.csv
+1,polished,613.8321062167862,false,run1_polished_parameters.csv
+2,least_squares,3483.448430393005,false,run2_least_squares_parameters.csv
+2,polished,3481.8371614422445,true,run2_polished_parameters.csv
+3,least_squares,3996.0422057094092,false,run3_least_squares_parameters.csv
+3,polished,625.6993296025527,false,run3_polished_parameters.csv
+4,least_squares,4184.552690034369,false,run4_least_squares_parameters.csv
+4,polished,1383.3280015714781,false,run4_polished_parameters.csv
+5,least_squares,1236.0459466280233,false,run5_least_squares_parameters.csv
+5,polished,613.4803271846247,true,run5_polished_parameters.csv
+6,least_squares,2923.512837680591,false,run6_least_squares_parameters.csv
+6,polished,627.5416171555147,false,run6_polished_parameters.csv
+7,least_squares,613.085578845579,false,run7_least_squares_parameters.csv
+7,polished,613.085578845579,true,run7_polished_parameters.csv
+8,least_squares,613.085578845579,false,run8_least_squares_parameters.csv
+8,polished,613.085578845579,true,run8_polished_parameters.csv

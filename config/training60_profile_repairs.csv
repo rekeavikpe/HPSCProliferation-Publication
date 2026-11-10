@@ -1,0 +1,26 @@
+mode,scenario,parameter,reason
+conditional,shear_both,K_d,lower incomplete
+conditional,shear_both,alpha,lower incomplete
+conditional,shear_both,K_tau,lower incomplete
+all-active,full,K_Agg,lower incomplete
+all-active,full,K_d,lower incomplete | upper incomplete
+all-active,full,Y_GLac,upper incomplete
+all-active,full,K_tau,lower incomplete | upper incomplete
+all-active,shear_cell,K_d,lower incomplete | upper incomplete
+all-active,shear_cell,K_G,upper incomplete
+all-active,shear_cell,K_oG,upper incomplete
+all-active,shear_cell,alpha,lower incomplete
+all-active,shear_cell,K_tau,upper incomplete
+all-active,edr_cell,K_d,lower incomplete
+all-active,edr_cell,K_tau,lower incomplete
+all-active,shear_both,K_d,lower incomplete
+all-active,shear_both,K_oG,upper incomplete
+all-active,shear_both,Y_GLac,upper incomplete
+all-active,shear_both,alpha,lower incomplete | upper incomplete
+all-active,shear_both,K_tau,upper incomplete
+all-active,edr_both,K_d,lower incomplete
+all-active,shear_aggregate,K_Agg,lower incomplete
+all-active,shear_aggregate,K_d,lower incomplete
+all-active,shear_aggregate,alpha,lower incomplete | upper incomplete
+all-active,edr_aggregate,Y_GLac,lower incomplete
+all-active,edr_aggregate,K_eps,lower incomplete | upper incomplete

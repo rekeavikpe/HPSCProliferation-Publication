@@ -1,0 +1,114 @@
+[
+  {
+    "condition": 1,
+    "sheet": "Varied by Cell Density",
+    "first_column": 3,
+    "last_column": 6,
+    "last_day": 6,
+    "volume_ml": 100,
+    "rpm": 40,
+    "seeding_cells_ml": 20000,
+    "expected_labels": [
+      "K1",
+      "K2",
+      "K3",
+      "K4"
+    ]
+  },
+  {
+    "condition": 2,
+    "sheet": "Varied by RPM",
+    "first_column": 12,
+    "last_column": 19,
+    "last_day": 6,
+    "volume_ml": 100,
+    "rpm": 40,
+    "seeding_cells_ml": 80000,
+    "expected_labels": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L29",
+      "L30",
+      "L34",
+      "L35"
+    ]
+  },
+  {
+    "condition": 3,
+    "sheet": "Varied by Cell Density",
+    "first_column": 19,
+    "last_column": 24,
+    "last_day": 6,
+    "volume_ml": 100,
+    "rpm": 40,
+    "seeding_cells_ml": 150000,
+    "expected_labels": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ]
+  },
+  {
+    "condition": 4,
+    "sheet": "500mL Reactor",
+    "first_column": 3,
+    "last_column": 11,
+    "last_day": 5,
+    "volume_ml": 500,
+    "rpm": 30,
+    "seeding_cells_ml": 80000,
+    "expected_labels": [
+      "L48",
+      "L52",
+      "L61",
+      "L62",
+      "L63",
+      "L67",
+      "L68",
+      "L71",
+      "L76"
+    ]
+  },
+  {
+    "condition": 5,
+    "sheet": "Varied by RPM",
+    "first_column": 3,
+    "last_column": 9,
+    "last_day": 5,
+    "volume_ml": 100,
+    "rpm": 30,
+    "seeding_cells_ml": 80000,
+    "expected_labels": [
+      "R1P1",
+      "R2P1",
+      "R2P2",
+      "L31",
+      "L32",
+      "L79",
+      "L80"
+    ]
+  },
+  {
+    "condition": 6,
+    "sheet": "Varied by RPM",
+    "first_column": 25,
+    "last_column": 30,
+    "last_day": 6,
+    "volume_ml": 100,
+    "rpm": 60,
+    "seeding_cells_ml": 80000,
+    "expected_labels": [
+      "L25",
+      "L26",
+      "L27",
+      "L28",
+      "L35",
+      "L36"
+    ]
+  }
+]

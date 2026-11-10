@@ -1,0 +1,9 @@
+julia = "1.12.4"
+threads = 3
+status = "complete"
+analysis = "Model 5 exact inactive lactate inhibition sensitivity"
+lm_iterations = 600
+seed = 20261015
+starts = 4
+source_fit = "/Users/ferdinandavikpe/Desktop/HPSCProliferation-R2/results/reproduction_calibration"
+polish_iterations = 12000

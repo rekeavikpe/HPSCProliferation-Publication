@@ -1,0 +1,16 @@
+model = 5
+training_cultures = 19
+publication_model = 6
+maxiters = 10000
+parameters = ["K_Lac", "Y_GX"]
+primary_fit_reestimated = false
+smoke_test = false
+implementation = "Independent grid-point nuisance optimization; package likelihood-ratio threshold and monotone interpolation"
+engine = "ProfileLikelihood.jl"
+free_parameters = 11
+seed_directory = "/home1/reke/HPSCProliferation-R2/results/training60_final/separate_ablations/profiles/all-active/full"
+grid_policy = "Saved grid, merging coordinates within 1e-9 of reference or bounds; extend by original edge spacing until threshold or bound"
+source_fit = "/home1/reke/HPSCProliferation-R2/results/training60_final/reference_fit"
+selection_cultures_used = 0
+
+[fixed_parameters]

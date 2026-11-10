@@ -1,0 +1,5 @@
+lm_reason = "objective_stalled"
+lm_projected_gradient = 0.0013917456079396429
+lm_iterations = 37
+polish_iterations = 177
+elapsed_seconds = 4.323646068572998

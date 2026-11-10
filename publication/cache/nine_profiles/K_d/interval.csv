@@ -1,0 +1,2 @@
+parameter,mle,package_lower,package_upper,lower_hits_bound,upper_hits_bound,unconfirmed_points,better_minimum
+K_d,0.12861188464745302,0.11044187690805611,0.14884144840159733,false,false,0,false

@@ -1,0 +1,2 @@
+model,saved_nll,initial_nll,nll,free_parameters,retcode,stopping_met,smoke_test
+5,610.0410001792391,610.0410001770447,610.0410001770447,11,Success,true,false

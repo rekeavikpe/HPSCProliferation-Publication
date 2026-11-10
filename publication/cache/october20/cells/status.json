@@ -1,0 +1,41 @@
+[
+  {
+    "line": "585A1",
+    "status": "parameter_reduction_review_required",
+    "final_fit": "results/david_comments_20261020/cells/585A1/round1",
+    "active_parameters": [
+      "mu_max",
+      "K_d",
+      "K_oG",
+      "Y_GLac",
+      "alpha"
+    ],
+    "unbounded_parameters": [
+      "K_d",
+      "Y_GLac",
+      "alpha"
+    ],
+    "numerical_review_parameters": [],
+    "history": [],
+    "automatic_reduction": false
+  },
+  {
+    "line": "SCTi003-A",
+    "status": "parameter_reduction_review_required",
+    "final_fit": "results/david_comments_20261020/cells/SCTi003-A/round1",
+    "active_parameters": [
+      "mu_max",
+      "K_d",
+      "K_oG",
+      "Y_GLac",
+      "alpha"
+    ],
+    "unbounded_parameters": [
+      "K_d",
+      "Y_GLac"
+    ],
+    "numerical_review_parameters": [],
+    "history": [],
+    "automatic_reduction": false
+  }
+]

@@ -1,0 +1,29 @@
+additional_fixed_parameter = ""
+full_range_repair = false
+model = 5
+analysis = "Nine profiles with K_Lac and Y_GX fixed at saved training estimates"
+training_cultures = 19
+mle_optimizer = "Fminbox/BFGS/BackTracking"
+selection_cultures_not_used = 12
+multistart_seed_directory = "/home1/reke/HPSCProliferation-R2/results/training60_final/separate_ablations/profiles/all-active/full"
+publication_model = 6
+cross_branch_seeds = false
+profile_optimizer = "NLopt.LN_BOBYQA"
+mle_only = false
+parameters = ["K_Agg", "K_d", "K_G", "K_oG", "Y_GLac", "alpha", "mu_max", "K_tau", "K_eps"]
+resolution_per_direction = 200
+conditional_parent = ""
+lactate_inhibition = true
+next_initial_estimate_method = "prev"
+profile_scope = "fixed-two"
+coordinates = "normalized log parameters"
+smoke_test = false
+K_G_bounds = [0.1, 100.0]
+engine = "ProfileLikelihood.jl"
+K_Lac_bounds = [0.1, 100.0]
+package_version = "0.4.1"
+source_fit = "/home1/reke/HPSCProliferation-R2/results/training60_final/reference_fit"
+
+[fixed_parameters]
+Y_GX = 3.961389011394862e-6
+K_Lac = 100.00000000000004

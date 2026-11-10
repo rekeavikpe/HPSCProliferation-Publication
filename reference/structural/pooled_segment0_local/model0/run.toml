@@ -1,0 +1,11 @@
+design = "pooled"
+probability_threshold = 0.999
+model = 0
+mode = "local"
+clock = "E is observed/known, E prime = -E/12; nonzero generic initial value"
+elapsed_seconds = 8.724977016448975
+scope = "Rational exposure segment, ideal continuous observation of all four states; no claim of practical identifiability or full hybrid global identifiability"
+julia = "1.12.4"
+segment = 0
+seed = 20261004
+initial_conditions = "generic; not specialized to the nominal inoculum"

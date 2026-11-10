@@ -1,0 +1,1 @@
+error("This custom profile suite is retired. Use Julia --project=profiles profiles/run.jl FIT NEW_OUTPUT 5 100. See docs/identifiability_workflow.md. Existing results are preserved as exploratory cross-checks.")
