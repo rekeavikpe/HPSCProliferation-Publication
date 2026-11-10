@@ -20,11 +20,17 @@ The DOI above identifies this code/data record. The accepted-paper citation is s
 
 Bibliography files are provided in [CITATION.bib](CITATION.bib) and [CITATION.cff](CITATION.cff). GitHub’s “Cite this repository” option provides the associated-paper citation.
 
+## Public repository and archived version
+
+This public repository starts from the verified [Zenodo v1.0.2 archive](https://doi.org/10.5281/zenodo.24117723). The [`v1.0.2` tag](https://github.com/rekeavikpe/HPSCProliferation-Publication/tree/v1.0.2) contains exactly the 1,920 files in that archive. The `main` branch updates repository links and records the public-copy verification; the code, data, settings, cached results and figures are unchanged. Earlier development commits were not imported.
+
+The [GitHub release](https://github.com/rekeavikpe/HPSCProliferation-Publication/releases/tag/v1.0.2) includes the same ZIP published on Zenodo. Its SHA-256 is `4f19ebd60d5b920dc167c20acb80675f6435a6d5e72a571837ef034b73077bf6`. Cite the Zenodo DOI above for this version. Repository links embedded in the immutable archive refer to the original development repository; the current public repository is [HPSCProliferation-Publication](https://github.com/rekeavikpe/HPSCProliferation-Publication).
+
 ## Start here
 
 This release contains the final 19-culture calibration, 12-culture selection, frozen 500 mL and feeding-protocol predictions, P75 sensitivity, five leave-one-condition-out folds, iPSC recalibrations, nine-parameter Model 6 profiles, and the two fixed-parameter diagnostic profiles. It includes the corrected Figure 3 observations and final plotting scripts.
 
-The biological equations, saved estimates, cohort assignments and likelihood definition have not been changed for this release. The code is based on Git commit `cd7e98567ee3be0e4b3884982d3dbe83246b7f0d`, with publication packaging and portable plotting/verification entry points added. See `publication/RELEASE_CHANGES.md`. The matching GitHub publication release is tagged [`v1.0.2`](https://github.com/rekeavikpe/HPSCProliferation-R2/tree/v1.0.2); this tag fixes the source, data and caches used by the Zenodo ZIP.
+The biological equations, saved estimates, cohort assignments and likelihood definition have not been changed for this release. The code is based on Git commit `cd7e98567ee3be0e4b3884982d3dbe83246b7f0d`, with publication packaging and portable plotting/verification entry points added. See `publication/RELEASE_CHANGES.md`. The archived GitHub publication release is tagged [`v1.0.2`](https://github.com/rekeavikpe/HPSCProliferation-Publication/tree/v1.0.2); this tag fixes the source, data and caches used by the Zenodo ZIP.
 
 **Use `publication/` for the accepted paper.** Older workflows and their documentation are retained for research history. They include superseded model labels, all-data calibrations and exploratory analyses that were not included in the accepted paper. They are not the release entry points. In particular, the accepted primary model was never refitted to all 31 small-vessel cultures after selection.
 

@@ -1,0 +1,14 @@
+{
+  "zenodo_doi": "10.5281/zenodo.24117723",
+  "zenodo_record": "https://zenodo.org/records/24117723",
+  "public_repository": "https://github.com/rekeavikpe/HPSCProliferation-Publication",
+  "version": "1.0.2",
+  "archive_filename": "hPSC_Zenodo_Code_Data_Results_v1.0.2.zip",
+  "archive_sha256": "4f19ebd60d5b920dc167c20acb80675f6435a6d5e72a571837ef034b73077bf6",
+  "archived_file_count": 1920,
+  "exact_snapshot_tag": "v1.0.2",
+  "exact_snapshot_commit": "ee91cb6a610364cada90451c91e1b794e460e741",
+  "tag_files_match_published_archive": true,
+  "development_history_imported": false,
+  "main_branch_changes": "Repository-link and verification documentation only; scientific files are unchanged."
+}

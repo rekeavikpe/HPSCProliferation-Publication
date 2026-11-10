@@ -9,7 +9,7 @@ date-released: '2026-11-10'
 license:
 - Apache-2.0
 - CC-BY-4.0
-repository-code: https://github.com/rekeavikpe/HPSCProliferation-R2
+repository-code: https://github.com/rekeavikpe/HPSCProliferation-Publication
 abstract: Publication code under Apache 2.0; curated data and cached results under CC BY 4.0. See LICENSES.md.
 authors:
 - family-names: Avikpe

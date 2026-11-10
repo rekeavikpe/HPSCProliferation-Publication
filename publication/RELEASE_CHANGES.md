@@ -18,3 +18,7 @@ Citation-only update: added the accepted-paper and code/data citations to README
 ## Version 1.0.2
 
 Added the author-reserved Zenodo DOI 10.5281/zenodo.24117723 to the README, software citation and deposit metadata. This DOI identifies the code/data record, not the journal article. No scientific code, numerical inputs, cached results, plots or analysis settings changed from v1.0.1.
+
+## Public repository documentation update
+
+Created HPSCProliferation-Publication from the published Zenodo v1.0.2 ZIP with no imported development history. The v1.0.2 tag preserves the archive files exactly. The main branch updates the README, CITATION.cff repository URL and deposit instructions, and adds a public-copy verification record. The integrity manifest was refreshed for these documentation changes. All code, data, settings, cached results, figures and the Zenodo DOI remain unchanged.
